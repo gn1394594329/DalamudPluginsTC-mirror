@@ -1,0 +1,60 @@
+name: 同步 repo.json
+
+on:
+  schedule:
+    # 每 3 小時；避開整點尖峰，GitHub 排程忙時可能延後
+    - cron: "7 */3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["repo.json"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-repo-json
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: 跑測試
+        run: python3 -m unittest -v
+
+      - name: 抓上游 repo.json 與 release 清單
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p work
+          curl -fsSL --retry 3 -o work/upstream.json \
+            "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/repo.json"
+          gh api --paginate --slurp \
+            "repos/ffxiv-tc-port/DalamudPluginsTC/releases?per_page=100" > work/releases.json
+
+      - name: 改寫下載連結
+        run: python3 rewrite_links.py --repo work/upstream.json --releases work/releases.json --out repo.json
+
+      - name: 抽查第一個下載連結（帶跟 Dalamud 一樣的 Accept）
+        run: |
+          set -euo pipefail
+          url=$(jq -r '.[0].DownloadLinkInstall' repo.json)
+          curl -fsSL -o /dev/null -r 0-0 -H "Accept: application/zip" "$url"
+
+      - name: 有變動才提交
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- repo.json; then
+            echo "repo.json 沒有變動"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          git add repo.json
+          git commit -m "chore: 同步上游 repo.json"
+          git push
