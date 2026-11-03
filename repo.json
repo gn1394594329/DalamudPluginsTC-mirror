@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.25.0.83",
+    "AssemblyVersion": "7.25.0.84",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.83/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.83/BossModReborn.zip",
-    "Changelog": "- 深層迷宮避開陷阱時能走陷阱之間的窄路：AI 閃陷阱的圓從 2 碼縮成 1.8 碼（仍大於實測觸發距離），不再把畫面上看得到的縫判成走不過；要開的寶箱被陷阱圍住、8 秒走不到就本層放棄它，不再站著不動\n- 深層迷宮避開怪物仇恨範圍時不再貼著邊走：自動趕路與風箏後退都和偵測範圍多保持 2 碼安全距離（可調，0＝照舊貼邊），走不過去時先拿掉這段距離再試，還是卡住才整個停止迴避\n- 深層迷宮 BOSS 戰不再省藥：BOSS 戰中喝藥判斷模組照常運作，而且 BOSS 層改用較寬的門檻（深層迷宮專屬藥水血量低於 90% 或預估 10 秒內低於 70% 就喝、治療劑低於 50% 就用；三個門檻可在設定調整，只會比平常更早喝）\n- 深層迷宮仇恨種類修正：死者宮殿 101~110 層的深宮元精改為聽覺、深宮駿鷹改為接近（原本誤標成視覺，自動趕路只繞開牠面前的扇形，從背後或側面經過會被發現）",
-    "LastUpdate": 1793611369,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.84/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.84/BossModReborn.zip",
+    "Changelog": "- 補上 52 場大型任務的場地邊界（沒有專屬模組時自動閃避不再往場外走、雷達畫出真的場地）：萬魔殿普通版 10 場、歐米茄時空狹縫 18 場、伊甸希望樂園 16 場、亞歷山大機神城 6 場、巴哈姆特大迷宮 2 場\n- 沒有專屬模組的大型任務（8 人與 24 人團隊任務）開打後也會出現雷達視窗：畫出場地範圍、敵人位置，以及照讀條猜出來的危險區；設定改名為「沒有專屬模組的討伐戰與大型任務也顯示雷達」（同一個開關，預設開；關掉就和以前一樣），視窗標題改為「雷達（沒有專屬模組）」；自動閃避的判斷方式不變",
+    "LastUpdate": 1793716566,
     "CategoryTags": [
       "Jobs"
     ]
@@ -1181,7 +1181,7 @@
     "Author": "MidoriKami",
     "Name": "DailyDuty",
     "InternalName": "DailyDuty",
-    "AssemblyVersion": "7.25.0.26",
+    "AssemblyVersion": "7.25.0.28",
     "Description": "自動追蹤並完成各種每日與每週任務",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/DailyDuty",
@@ -1204,10 +1204,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/DailyDuty.png",
     "Punchline": "輕鬆追蹤每日／每週任務",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.26/DailyDuty.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.26/DailyDuty.zip",
-    "Changelog": "- 討伐輔助：「前往目標地圖」抵達後自動接著巡邏；巡邏發現目標後先接近到設定距離內再停（兩項都可在巡邏設定關閉）",
-    "LastUpdate": 1793285545
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.28/DailyDuty.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.28/DailyDuty.zip",
+    "Changelog": "- 討伐輔助偵測半徑上限從 100 米提高到 300 米：實測遠處也能發現標的，可自行把半徑調到約 200 米，一趟巡邏涵蓋更多出現點",
+    "LastUpdate": 1793704030
   },
   {
     "Author": "liza, qstxiv, & various contributors",
@@ -1500,7 +1500,7 @@
     "Author": "ffxiv-tc-port",
     "Name": "TC Toolbox",
     "InternalName": "TCToolbox",
-    "AssemblyVersion": "7.25.0.41",
+    "AssemblyVersion": "7.25.0.42",
     "Description": "台服自製雜項 QoL 工具箱。模組化設計，每個功能獨立開關（預設全部關閉）：公會合建素材一鍵全交、野外陸行鳥自動餵食基沙爾野菜、自動完成 QTE 連打、周邊玩家數量統計與清單（含偵測規則：名稱命中正規表達式時通知並執行指令）、自動園圃收穫／護理／施肥／播種。指令 /tctoolbox 開啟設定視窗。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/TCToolbox",
@@ -1516,10 +1516,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/TCToolbox.png",
     "Punchline": "台服雜項 QoL 模組集：合建交料、餵鳥、QTE、周邊玩家、園圃自動化。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.41/TCToolbox.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.41/TCToolbox.zip",
-    "Changelog": "- 寶藏鑑定紀錄的診斷改為 Debug 等級，記錄檔等級設在 Information 以上時不再寫入（功能不變）\n- 新增「周邊敵人」：資訊列顯示附近可選取的敵人數量，清單照距離排序並標出以你為目標的敵人，點一下就選取目標（預設關）\n- 新增「周邊可互動物件」：資訊列顯示附近可互動的 NPC／物件／寶箱／乙太之光數量，清單照距離排序，點一下就選取目標（預設關）",
-    "LastUpdate": 1793249407
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.42/TCToolbox.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.42/TCToolbox.zip",
+    "Changelog": "- 周圍敵人／周圍可互動物件／小地圖顯示周圍目標的搜尋半徑上限從 200 米提高到 500 米",
+    "LastUpdate": 1793704103
   },
   {
     "Author": "daemitus, MidoriKami",
