@@ -125,7 +125,7 @@
     "Author": "кайт машина (Puni.sh)",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "7.25.0.64",
+    "AssemblyVersion": "7.25.0.65",
     "Description": "躺在床上就能收取並指派僱員的遠航任務。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoRetainer",
@@ -137,10 +137,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoRetainer.png",
     "Punchline": "躺著也能派遣僱員出去探險。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.64/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.64/AutoRetainer.zip",
-    "Changelog": "- 修正公會成立日期一直抓不到：打開「公會情報」或公會視窗「情報」分頁都會記下成立日期，抓不到時記錄檔會寫出原因",
-    "LastUpdate": 1793300519,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.65/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.65/AutoRetainer.zip",
+    "Changelog": "- 沒裝 Lifestream 時不再每幀擲出 IPC 例外（減少每幀記憶體配置），記錄檔也不再每分鐘寫一行「Lifestream.IsBusy 未註冊」",
+    "LastUpdate": 1793985289,
     "CategoryTags": [
       "Inventory"
     ]
@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.25.0.84",
+    "AssemblyVersion": "7.25.0.85",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.84/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.84/BossModReborn.zip",
-    "Changelog": "- 補上 52 場大型任務的場地邊界（沒有專屬模組時自動閃避不再往場外走、雷達畫出真的場地）：萬魔殿普通版 10 場、歐米茄時空狹縫 18 場、伊甸希望樂園 16 場、亞歷山大機神城 6 場、巴哈姆特大迷宮 2 場\n- 沒有專屬模組的大型任務（8 人與 24 人團隊任務）開打後也會出現雷達視窗：畫出場地範圍、敵人位置，以及照讀條猜出來的危險區；設定改名為「沒有專屬模組的討伐戰與大型任務也顯示雷達」（同一個開關，預設開；關掉就和以前一樣），視窗標題改為「雷達（沒有專屬模組）」；自動閃避的判斷方式不變",
-    "LastUpdate": 1793716566,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.85/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.25.0.85/BossModReborn.zip",
+    "Changelog": "- 金碟 GATE「暴風倖存者」的場地外圍攻擊改判成甜甜圈形，站在中間不再被當成腳下危險",
+    "LastUpdate": 1793986872,
     "CategoryTags": [
       "Jobs"
     ]
@@ -447,7 +447,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Tools",
     "InternalName": "InventoryTools",
-    "AssemblyVersion": "7.25.0.29",
+    "AssemblyVersion": "7.25.0.30",
     "Description": "Allagan Tools 的主要目的是追蹤你所有角色/僱員/公會倉庫中的道具。透過它的篩選系統，你將不再遺失任何道具的蹤跡，也不再不知道道具該收納在哪裡。\n\n雖然這是它的主要功能，但它還擁有相當豐富的其他功能，包括：\n\t- 製作規劃\n\t- 市場公告板整合\n\t- 在搜尋/整理及挑選製作材料時於背包中高亮顯示道具\n\t- 包含商人與取得來源等資訊的道具視窗\n\t- 可完整搜尋的任務/怪物/飛空艇/潛水艇視窗\n\t- 讓你能為特定道具設定複雜搜尋條件的篩選系統\n\t- 提示視窗整合，滑鼠懸停即可查看道具所在位置",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/InventoryTools",
@@ -467,10 +467,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/InventoryTools.png",
     "Punchline": "讓你的 FFXIV 井井有條，輕鬆定位/顯示道具應收納何處、規劃製作，並搜尋怪物、任務、飛空艇與潛水艇！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.25.0.29/InventoryTools.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.25.0.29/InventoryTools.zip",
-    "Changelog": "- 預防在商店 NPC 附近查詢商店時，遊戲的事件物件清單裡若出現空位會讓遊戲直接關閉：遇到時這一次當作沒有商店，並在記錄檔留一行提示\n- 修正與 Wotsit 搜尋整合時，插件載入 5 秒後的補註冊在背景執行緒進行、可能與新增或刪除清單同時改動註冊表而出錯，現在一律交回遊戲主執行緒處理\n- 停用或更新插件時，存庫存資料最多只讓遊戲畫面停住約 2 秒（原本最多約 5 秒以上），存不完就保留上一份完整的存檔\n- 修正簡易製作途中製作視窗短暫讀不到時，製作清單可能被記入一筆數量大到不合理的完成數（例如 42 億），現在讀不到的那一幀直接略過",
-    "LastUpdate": 1792599696
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.25.0.30/InventoryTools.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.25.0.30/InventoryTools.zip",
+    "Changelog": "- 背包資料存檔再減少約六成：變動後安靜 10 秒才寫、連續變動最多 2 分鐘寫一次（登入、登出、換角、關閉插件仍立刻寫）",
+    "LastUpdate": 1793984706
   },
   {
     "Author": "electr0sheep, Nuko",
@@ -824,7 +824,7 @@
     "Author": "Taurenkey, Kagekazu",
     "Name": "Saucy",
     "InternalName": "Saucy",
-    "AssemblyVersion": "7.25.0.32",
+    "AssemblyVersion": "7.25.0.34",
     "Description": "自動化部分金碟遊樂園小遊戲。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Saucy",
@@ -841,10 +841,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Saucy.png",
     "Punchline": "當賺取 MGP 太費工夫的時候。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.32/Saucy.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.32/Saucy.zip",
-    "Changelog": "- GATE 自動報名：替你按 NPC 對話前先請 YesAlready 暫停，避免兩個插件同時按同一個對話框",
-    "LastUpdate": 1793524010,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.34/Saucy.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.34/Saucy.zip",
+    "Changelog": "- 金碟遊樂園 GATE 在場上時不再每幀存設定檔（每幀配置與硬碟寫入大降）\n- 搶救小雛鳥大作戰：替你報名之後（對話結束）就走回最近的活動解說員等下一場\n- 定時走去活動解說員：被 NPC 傳送走之後，這個時段（:55／:15／:35 那一分鐘）不再走回去對話\n- 空軍裝甲駕駛員：同一個位置剛開過槍就先打別的目標，避免連點太快（同一點最短間隔預設 500 毫秒，可調）\n- 空軍裝甲駕駛員：炸彈避讓圈與目標標靶圈拆成兩個設定，舊設定自動換成「炸彈＝原值＋10、目標＝原值－10」\n- 登高跳跳樂與空軍裝甲駕駛員：副本結束後的金碟幣結算視窗出現 2 秒後自動關閉，狀態與 log 改說明「在等結算視窗結束」",
+    "LastUpdate": 1794002333,
     "CategoryTags": [
       "Minigames"
     ]
@@ -1029,7 +1029,7 @@
     "Author": "veyn",
     "Name": "vnavmesh",
     "InternalName": "vnavmesh",
-    "AssemblyVersion": "7.25.0.27",
+    "AssemblyVersion": "7.25.0.28",
     "Description": "自動在世界中移動角色的輔助工具，能巧妙地避開各種障礙物。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/vnavmesh",
@@ -1049,10 +1049,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/vnavmesh.png",
     "Punchline": "自動移動吧！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/vnavmesh-v7.25.0.27/vnavmesh.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/vnavmesh-v7.25.0.27/vnavmesh.zip",
-    "Changelog": "- 修正其他插件要求「取消全部尋路」後，排隊中或已算好的移動請求仍讓角色又開始走",
-    "LastUpdate": 1792600579
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/vnavmesh-v7.25.0.28/vnavmesh.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/vnavmesh-v7.25.0.28/vnavmesh.zip",
+    "Changelog": "- 從沒改過設定時，每次啟動不再在記錄檔寫一行「讀取設定檔失敗」錯誤",
+    "LastUpdate": 1793985330
   },
   {
     "Author": "Team Wrath",
@@ -1181,7 +1181,7 @@
     "Author": "MidoriKami",
     "Name": "DailyDuty",
     "InternalName": "DailyDuty",
-    "AssemblyVersion": "7.25.0.28",
+    "AssemblyVersion": "7.25.0.29",
     "Description": "自動追蹤並完成各種每日與每週任務",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/DailyDuty",
@@ -1204,16 +1204,16 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/DailyDuty.png",
     "Punchline": "輕鬆追蹤每日／每週任務",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.28/DailyDuty.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.28/DailyDuty.zip",
-    "Changelog": "- 討伐輔助偵測半徑上限從 100 米提高到 300 米：實測遠處也能發現標的，可自行把半徑調到約 200 米，一趟巡邏涵蓋更多出現點",
-    "LastUpdate": 1793704030
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.29/DailyDuty.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.25.0.29/DailyDuty.zip",
+    "Changelog": "- 修正關閉軍隊分隊任務結算視窗時插件報錯，並改善特殊任務完成的辨識（每週清單標成已完成）",
+    "LastUpdate": 1793984657
   },
   {
     "Author": "liza, qstxiv, & various contributors",
     "Name": "Questionable",
     "InternalName": "Questionable",
-    "AssemblyVersion": "7.25.0.46",
+    "AssemblyVersion": "7.25.0.48",
     "Description": "自動跑任務插件：\n- 自動導航至任務目標並完成對話、互動與戰鬥觸發\n- 支援主線／支線任務、部分部落任務與採集類任務\n- 提供任務執行優先順序與除錯視窗\n- 需搭配 vnavmesh、TextAdvance、Lifestream 使用",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Questionable",
@@ -1232,10 +1232,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Questionable.png",
     "Punchline": "自動跑任務助手，導航並完成任務",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.46/Questionable.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.46/Questionable.zip",
-    "Changelog": "- 共用函式庫更新：修正自動操作遊戲視窗時可能讓遊戲崩潰；繪圖設定「過場動畫中也繪製」「畫面淡出時也繪製」打開後不再反而永遠不繪製",
-    "LastUpdate": 1792958498
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.48/Questionable.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.48/Questionable.zip",
+    "Changelog": "- 任務中斷後重新開始時，若都市傳送網水晶還沒開完，改用傳送到目的地那一區的乙太之光再走過去，不再直接停下",
+    "LastUpdate": 1793986891
   },
   {
     "Author": "NightmareXIV",
@@ -1301,7 +1301,7 @@
     "Author": "Usagi, PlusoneChiang",
     "Name": "IINACT",
     "InternalName": "IINACT",
-    "AssemblyVersion": "7.25.0.31",
+    "AssemblyVersion": "7.25.0.32",
     "Description": "在類 ACT 環境中直接執行 FFXIV_ACT_Plugin 的戰鬥數據解析插件,內建深度改造的 Overlay Plugin 移植版,無需另外安裝 ACT。\n可搭配 Crossingway 在遊戲內顯示戰鬥數據覆蓋層。\nFork 自 marzent/IINACT(繁體中文版客戶端,API 13 / .NET 9,TC opcodes 由 PlusoneChiang 維護)。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/IINACT",
@@ -1321,10 +1321,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/IINACT.png",
     "Punchline": "免 ACT 的戰鬥數據解析插件。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.25.0.31/IINACT.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.25.0.31/IINACT.zip",
-    "Changelog": "- 修正讀取戰鬥對象偶爾失敗時，疊加層可能拿到別的對象殘留的資料（例如名字、血量、狀態錯置）",
-    "LastUpdate": 1792599366
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.25.0.32/IINACT.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.25.0.32/IINACT.zip",
+    "Changelog": "- 支援解析元件 FFXIV_ACT_Plugin 3.0.3.4",
+    "LastUpdate": 1794002332
   },
   {
     "Author": "Ice",
@@ -1500,7 +1500,7 @@
     "Author": "ffxiv-tc-port",
     "Name": "TC Toolbox",
     "InternalName": "TCToolbox",
-    "AssemblyVersion": "7.25.0.42",
+    "AssemblyVersion": "7.25.0.43",
     "Description": "台服自製雜項 QoL 工具箱。模組化設計，每個功能獨立開關（預設全部關閉）：公會合建素材一鍵全交、野外陸行鳥自動餵食基沙爾野菜、自動完成 QTE 連打、周邊玩家數量統計與清單（含偵測規則：名稱命中正規表達式時通知並執行指令）、自動園圃收穫／護理／施肥／播種。指令 /tctoolbox 開啟設定視窗。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/TCToolbox",
@@ -1516,10 +1516,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/TCToolbox.png",
     "Punchline": "台服雜項 QoL 模組集：合建交料、餵鳥、QTE、周邊玩家、園圃自動化。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.42/TCToolbox.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.42/TCToolbox.zip",
-    "Changelog": "- 周圍敵人／周圍可互動物件／小地圖顯示周圍目標的搜尋半徑上限從 200 米提高到 500 米",
-    "LastUpdate": 1793704103
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.43/TCToolbox.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.25.0.43/TCToolbox.zip",
+    "Changelog": "- 快速交易：右鍵當下選單還沒就緒或剛送過時，0.5 秒內自動重試，不再約一半的點擊沒放進交易視窗",
+    "LastUpdate": 1794002330
   },
   {
     "Author": "daemitus, MidoriKami",
@@ -1555,7 +1555,7 @@
     "Author": "alydev",
     "Name": "GatheringPathRenderer",
     "InternalName": "GatheringPathRenderer",
-    "AssemblyVersion": "7.25.0.46",
+    "AssemblyVersion": "7.25.0.48",
     "Description": "[Questionable 開發用插件]：使用 Pictomancy 繪製採集點路徑，供路徑資料編輯者使用。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Questionable",
@@ -1570,10 +1570,10 @@
     "LoadPriority": 0,
     "Punchline": "[Questionable 開發用] 繪製採集路徑點",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.46/GatheringPathRenderer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.46/GatheringPathRenderer.zip",
-    "LastUpdate": 1792958498,
-    "Changelog": "- 共用函式庫更新：修正自動操作遊戲視窗時可能讓遊戲崩潰；繪圖設定「過場動畫中也繪製」「畫面淡出時也繪製」打開後不再反而永遠不繪製"
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.48/GatheringPathRenderer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.48/GatheringPathRenderer.zip",
+    "LastUpdate": 1793986891,
+    "Changelog": "- 任務中斷後重新開始時，若都市傳送網水晶還沒開完，改用傳送到目的地那一區的乙太之光再走過去，不再直接停下"
   },
   {
     "Author": "WildWolf",
