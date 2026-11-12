@@ -67,7 +67,7 @@
     "Author": "Herculezz",
     "Name": "AutoDuty",
     "InternalName": "AutoDuty",
-    "AssemblyVersion": "7.25.0.41",
+    "AssemblyVersion": "7.25.0.42",
     "Description": "自動幫你跑副本，支援親信戰友、劇情輔助器、冒險者分隊、多變或一般模式。需搭配 BossModReborn、vnavmesh 與一款戰鬥循環插件（WrathCombo 或 BossMod AutoRotation）使用。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoDuty",
@@ -87,10 +87,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoDuty.png",
     "Punchline": "自動跑本，解放雙手。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.25.0.41/AutoDuty.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.25.0.41/AutoDuty.zip",
-    "Changelog": "- 卸載或重複停止時不再停掉其他插件正在走的導航路徑",
-    "LastUpdate": 1794060266
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.25.0.42/AutoDuty.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.25.0.42/AutoDuty.zip",
+    "Changelog": "- 卸載或重新載入插件時一併關閉多開連線與監聽\n- 閒置時執行 /ad pause 不再停掉其他插件正在走的導航路徑\n- 修正運行中站在傳喚鈴旁時可能讓遊戲卡死的問題",
+    "LastUpdate": 1794511633
   },
   {
     "Author": "Det",
@@ -125,7 +125,7 @@
     "Author": "кайт машина (Puni.sh)",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "7.25.0.66",
+    "AssemblyVersion": "7.25.0.67",
     "Description": "躺在床上就能收取並指派僱員的遠航任務。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoRetainer",
@@ -137,10 +137,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoRetainer.png",
     "Punchline": "躺著也能派遣僱員出去探險。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.66/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.66/AutoRetainer.zip",
-    "Changelog": "- 稀有品繳交循環：傳送被遊戲拒絕時先等角色不忙再重送，並多試幾次",
-    "LastUpdate": 1794454333,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.67/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.25.0.67/AutoRetainer.zip",
+    "Changelog": "- 其他插件要求 AutoRetainer 急停時，連稀有品繳交循環、「跑一輪就回來」的換回角色、自動籌備稀有品也一起停下\n- 遊戲改版後若稀有品繳交清單或僱員物品指令的版面對不上，只停用相關功能，不再讓整個插件載入失敗",
+    "LastUpdate": 1794486085,
     "CategoryTags": [
       "Inventory"
     ]
@@ -563,7 +563,7 @@
     "Author": "NightmareXIV",
     "Name": "Lifestream",
     "InternalName": "Lifestream",
-    "AssemblyVersion": "7.25.0.43",
+    "AssemblyVersion": "7.25.0.44",
     "Description": "- 一鍵傳送至任何世界或都市傳送網目的地\n- 點擊區域地圖上的城內乙太之晶即可傳送過去",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Lifestream",
@@ -584,10 +584,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Lifestream.png",
     "Punchline": "加速都市傳送網移動與跨世界旅行的插件。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.25.0.43/Lifestream.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.25.0.43/Lifestream.zip",
-    "Changelog": "- 傳送抵達後等待主水晶不再空等 30 秒\n- 相依函式庫 NightmareUI 對齊到補上授權檔的版本（功能不變）",
-    "LastUpdate": 1793184392
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.25.0.44/Lifestream.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.25.0.44/Lifestream.zip",
+    "Changelog": "- 資料表缺列時不再讓傳送功能整個失效（自訂乙太網點與城內乙太網點查不到就略過）\n- 艦隊急停與進度條右鍵也會取消「抵達後關閉遊戲」；插件卸載時收回自己開的自動移動；擋下只有逗號的 IPC 指令",
+    "LastUpdate": 1794492682
   },
   {
     "Author": "apetih",
@@ -824,7 +824,7 @@
     "Author": "Taurenkey, Kagekazu",
     "Name": "Saucy",
     "InternalName": "Saucy",
-    "AssemblyVersion": "7.25.0.35",
+    "AssemblyVersion": "7.25.0.36",
     "Description": "自動化部分金碟遊樂園小遊戲。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Saucy",
@@ -841,10 +841,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Saucy.png",
     "Punchline": "當賺取 MGP 太費工夫的時候。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.35/Saucy.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.35/Saucy.zip",
-    "Changelog": "- 卸載或停用模組時不再停掉其他插件正在走的導航路徑",
-    "LastUpdate": 1794060263,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.36/Saucy.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Saucy-v7.25.0.36/Saucy.zip",
+    "Changelog": "- /saucy stop 與全艦隊急停改為同一份停止清單（含孤樹無援連續遊玩），副本裡的空軍與登高也停得住；停止或卸載只收 Saucy 自己發起的導航與 Lifestream 傳送；幻卡翻對話前先請 YesAlready 讓開\n- 空軍裝甲駕駛員：遊戲視窗不在前景時暫停自動瞄準與開槍，不再把你在別的視窗的滑鼠游標拉走\n- 金碟小遊戲模組每幀更新各自隔離：一個模組出錯不再連帶讓急停與其他自動化那一幀被跳過，同一種錯誤只記一次\n- 修正部分設定滑桿拖曳期間每幀存檔：放開滑桿時才存（登高跳跳樂提早退出等待秒數、仙人微彩三項、孤樹無援三項、賣卡保底張數）",
+    "LastUpdate": 1794509180,
     "CategoryTags": [
       "Minigames"
     ]
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.25.0.33",
+    "AssemblyVersion": "7.25.0.34",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.25.0.33/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.25.0.33/ICE.zip",
-    "Changelog": "- 共用函式庫更新：修正自動操作遊戲視窗時可能讓遊戲崩潰；繪圖設定「過場動畫中也繪製」「畫面淡出時也繪製」打開後不再反而永遠不繪製",
-    "LastUpdate": 1792953733
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.25.0.34/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.25.0.34/ICE.zip",
+    "Changelog": "- 機甲行動參與中不再自動施放宇宙衝刺；遊戲改版後駕駛申請書對不上時只停用那一列，不再讓整個插件載入失敗",
+    "LastUpdate": 1794483064
   },
   {
     "Author": "Liza Carvelli",
