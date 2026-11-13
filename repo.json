@@ -1213,7 +1213,7 @@
     "Author": "liza, qstxiv, & various contributors",
     "Name": "Questionable",
     "InternalName": "Questionable",
-    "AssemblyVersion": "7.25.0.49",
+    "AssemblyVersion": "7.25.0.51",
     "Description": "自動跑任務插件：\n- 自動導航至任務目標並完成對話、互動與戰鬥觸發\n- 支援主線／支線任務、部分部落任務與採集類任務\n- 提供任務執行優先順序與除錯視窗\n- 需搭配 vnavmesh、TextAdvance、Lifestream 使用",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Questionable",
@@ -1232,10 +1232,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Questionable.png",
     "Punchline": "自動跑任務助手，導航並完成任務",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.49/Questionable.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.49/Questionable.zip",
-    "Changelog": "- 卸載時不再停掉其他插件正在走的導航路徑",
-    "LastUpdate": 1794060328
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.51/Questionable.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Questionable-v7.25.0.51/Questionable.zip",
+    "Changelog": "- 閒置時不再每幀向 vnavmesh 查詢路徑狀態\n- 自己手動看製作人員名單時不再被自動關掉，只在 Questionable 自動任務進行中才關\n- 載入插件時關閉殘留的 RhythmAction 視窗改到遊戲主執行緒進行，並經過防重複按鍵閘門\n- 戰鬥交給 RSR 時：卸載插件只在本插件把 RSR 切成手動的情況下才關掉它，並說明戰鬥後不會回到原本的模式\n- 停止任務或卸載插件時，寫回被舊版 AutoDuty／BossMod 退路改掉的存檔設定，並先停下 Questionable 自己發起的工作",
+    "LastUpdate": 1794591297
   },
   {
     "Author": "NightmareXIV",
@@ -1555,7 +1555,7 @@
     "Author": "alydev",
     "Name": "GatheringPathRenderer",
     "InternalName": "GatheringPathRenderer",
-    "AssemblyVersion": "7.25.0.49",
+    "AssemblyVersion": "7.25.0.51",
     "Description": "[Questionable 開發用插件]：使用 Pictomancy 繪製採集點路徑，供路徑資料編輯者使用。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Questionable",
@@ -1570,10 +1570,10 @@
     "LoadPriority": 0,
     "Punchline": "[Questionable 開發用] 繪製採集路徑點",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.49/GatheringPathRenderer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.49/GatheringPathRenderer.zip",
-    "LastUpdate": 1794060328,
-    "Changelog": "- 卸載時不再停掉其他插件正在走的導航路徑"
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.51/GatheringPathRenderer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatheringPathRenderer-v7.25.0.51/GatheringPathRenderer.zip",
+    "LastUpdate": 1794591297,
+    "Changelog": "- 閒置時不再每幀向 vnavmesh 查詢路徑狀態\n- 自己手動看製作人員名單時不再被自動關掉，只在 Questionable 自動任務進行中才關\n- 載入插件時關閉殘留的 RhythmAction 視窗改到遊戲主執行緒進行，並經過防重複按鍵閘門\n- 戰鬥交給 RSR 時：卸載插件只在本插件把 RSR 切成手動的情況下才關掉它，並說明戰鬥後不會回到原本的模式\n- 停止任務或卸載插件時，寫回被舊版 AutoDuty／BossMod 退路改掉的存檔設定，並先停下 Questionable 自己發起的工作"
   },
   {
     "Author": "WildWolf",
@@ -1989,7 +1989,7 @@
     "Author": "ffxiv-tc-port",
     "Name": "塔塔露誇獎",
     "InternalName": "TataruPraise",
-    "AssemblyVersion": "7.25.0.13",
+    "AssemblyVersion": "7.25.0.14",
     "Description": "遊戲裡發生事情的時候，用塔塔露的聲音喊一句極短的提示——「完美收工！」「後面！」「排到了！」。不是要太多對話，只是要有聲音。每個情境一句、全部 8 個字以內，情境有副本完成／升等／登入／Gil 里程碑／血量低／背後有人／收到密語／副本排到／組隊邀請／交易請求等，各自獨立開關（預設全部關閉）。播的是事先合成好的語音檔，執行期完全不連網。語音來自本機的 GPT-SoVITS 橋接（預設 http://127.0.0.1:9882），沒有橋接就只是不出聲，不會卡遊戲。設定視窗可以直接編輯每個情境的短句；資訊列上有一格，點一下切換總開關。指令 /tataru 開啟設定視窗，/tataru test 試播一句。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/TataruPraise",
@@ -2009,10 +2009,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/TataruPraise.png",
     "Punchline": "遊戲裡有事發生就喊一句極短提示，純本機、預設全關。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TataruPraise-v7.25.0.13/TataruPraise.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TataruPraise-v7.25.0.13/TataruPraise.zip",
-    "LastUpdate": 1793086127,
-    "Changelog": "- 補上 MIT 授權"
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TataruPraise-v7.25.0.14/TataruPraise.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TataruPraise-v7.25.0.14/TataruPraise.zip",
+    "LastUpdate": 1794593960,
+    "Changelog": "- 誇獎池檔案讀不懂時先備份原檔，不再直接用內建句蓋掉\n- 修正短句工作剛開始就被取消時，之後所有短句工作按鈕都按不下去\n- 修正語音播放結束時若釋放音訊裝置失敗可能讓遊戲結束，並讓遊戲畫面不再等待音訊裝置"
   },
   {
     "Author": "yagi2",
