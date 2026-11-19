@@ -40,7 +40,7 @@
     "Author": "Taurenkey (Puni.sh)",
     "Name": "Artisan",
     "InternalName": "Artisan",
-    "AssemblyVersion": "7.30.0.12",
+    "AssemblyVersion": "7.30.0.14",
     "Description": "整合各種功能的全能製作插件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Artisan",
@@ -58,10 +58,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Artisan.png",
     "Punchline": "一款「簡單」的製作插件。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.12/Artisan.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.12/Artisan.zip",
-    "Changelog": "- 製作清單會預估要幾格背包：編輯器與執行中的清單視窗在放不下時顯示「背包約差幾格」；新增「背包剩幾格就暫停清單」（預設 0＝照舊），停下時保留格子讓 AutoRetainer 照常接手僱員",
-    "LastUpdate": 1795081962
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.14/Artisan.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.14/Artisan.zip",
+    "Changelog": "- 專家配方解算器：宇宙探索配方預設追求滿品質、不再停在第三個門檻（可在設定關閉）；法恩娜任務的評價在第三個門檻之後仍隨品質上升，金星常常要滿品質（例：特定用途的布料類從約 76% 提高到滿品質）\n- 宇宙探索製作：奇蹟之材不再插在加工連擊中間（實機曾讓中級／上級加工照全價扣 CP，一次多花 28～42 CP）；奇蹟之材的判定結果在製作中途才算出來時也會寫進紀錄",
+    "LastUpdate": 1795113793
   },
   {
     "Author": "Herculezz",
@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.16",
+    "AssemblyVersion": "7.30.0.19",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.16/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.16/BossModReborn.zip",
-    "Changelog": "- 新增萬魔殿 荒天之獄3（一般）模組：駁回判決的擊退前 AI 會先走到場中央附近，不再被擊退出場；光與暗的調停會站到身上標記對應的那一半",
-    "LastUpdate": 1795070498,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.19/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.19/BossModReborn.zip",
+    "Changelog": "- 在副本中重新載入插件後自動開始的錄影，檔名不再少了職業、等級與角色名縮寫（等拿到玩家資料才開錄，最多等約 3 秒）\n- 新增水晶塔 暗之世界 亞特蒙斯（三隊各打一隻的中途戰）模組：黑洞的標記出現後，其他人會避開亞特蒙斯與被點名者之間的扇形，不再被一起吸進去；衝擊狂潮照讀條離開半徑 19\n- 最終決戰天幕魔導城 蓋烏斯：「指引」連續爆炸看到第一波就畫出整輪四波的落點與時間，AI 一開始就選好位置，不再每 2 秒轉一次方向\n- 水晶塔 暗之世界 暗黑之雲：沒有讀條的波動爆炸（半徑 5）改為在地上標記出現時就畫出範圍，AI 約有 10 秒可以先走開\n- 水晶塔 暗之世界 安格拉・曼紐：王正面的怪光線（沒有讀條的直線）改為常駐危險區，非坦克的 AI 不再站在王正前方\n- 水晶塔 暗之世界 安格拉・曼紐：死亡視線的背對提示改為持續到真正判定那一刻（原本提早約 1.4 秒消失，連段會把角色轉回面向王而吃到死亡宣告）",
+    "LastUpdate": 1795114303,
     "CategoryTags": [
       "Jobs"
     ]
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.6",
+    "AssemblyVersion": "7.30.0.7",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.6/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.6/ICE.zip",
-    "Changelog": "- 自動化停下來時可請 NotificationMaster 跳出 Windows 通知或閃爍工作列圖示（預設關，設定在「停止條件」）",
-    "LastUpdate": 1795048307
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.7/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.7/ICE.zip",
+    "Changelog": "- 宇宙好運道自動執行的除錯記錄改正比較方向（只改文字，判定不變）\n- 宇宙工具經驗模式：最近拿不到金星的製作任務在 30 分鐘內排到最後，不再馬上重接（預設開，可關、分鐘數可調）；工具經驗全滿又沒開自動回報時會寫一行說明\n- 宇宙探索任務面板的讀取記錄改在面板開好之後才寫，讀不到時自動附上面板文字；宇宙好運道選邊記錄列出兩邊獎品與權重\n- 宇宙探索：騎乘中不再把製作職誤判成還沒學會「掌握」（改以技能解鎖紀錄為準）",
+    "LastUpdate": 1795112761
   },
   {
     "Author": "Liza Carvelli",
