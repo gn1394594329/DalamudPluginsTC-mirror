@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.19",
+    "AssemblyVersion": "7.30.0.27",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.19/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.19/BossModReborn.zip",
-    "Changelog": "- 在副本中重新載入插件後自動開始的錄影，檔名不再少了職業、等級與角色名縮寫（等拿到玩家資料才開錄，最多等約 3 秒）\n- 新增水晶塔 暗之世界 亞特蒙斯（三隊各打一隻的中途戰）模組：黑洞的標記出現後，其他人會避開亞特蒙斯與被點名者之間的扇形，不再被一起吸進去；衝擊狂潮照讀條離開半徑 19\n- 最終決戰天幕魔導城 蓋烏斯：「指引」連續爆炸看到第一波就畫出整輪四波的落點與時間，AI 一開始就選好位置，不再每 2 秒轉一次方向\n- 水晶塔 暗之世界 暗黑之雲：沒有讀條的波動爆炸（半徑 5）改為在地上標記出現時就畫出範圍，AI 約有 10 秒可以先走開\n- 水晶塔 暗之世界 安格拉・曼紐：王正面的怪光線（沒有讀條的直線）改為常駐危險區，非坦克的 AI 不再站在王正前方\n- 水晶塔 暗之世界 安格拉・曼紐：死亡視線的背對提示改為持續到真正判定那一刻（原本提早約 1.4 秒消失，連段會把角色轉回面向王而吃到死亡宣告）",
-    "LastUpdate": 1795114303,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.27/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.27/BossModReborn.zip",
+    "Changelog": "- 新增萬魔殿 荒天之獄4（一般）模組：三魂一體的三下左右半場會依序畫出，對話的分攤與分散、明眸的直線死刑、超鏈回環的甜甜圈範圍 AI 會照著站\n- 新增萬魔殿 荒天之獄2（一般）模組：萬魔殿之柱的塔 AI 會去踩、尖腳的塔只給坦克踩，噴吐絲網會分散、攥魂畫出坦克分攤\n- 新增萬魔殿 煉淨之獄3（一般）模組：阿提斯的巨枝、靜電之月、怪鳥強襲的範圍會預先畫出，半神神聖會分散、半神・中勁風的死刑圈其他人會避開\n- 新增萬魔殿 煉淨之獄2（一般）模組：協同的死刑圈、冥灰的分散、寄生之舞與噴氣的扇形會預先畫出，AI 會避開\n- 水晶塔 暗之世界：模組清單裡地獄三頭犬原本誤顯示成「雷電龍頭」，改回正確名稱\n- 山中戰線澤梅爾要塞 巴特拉爾：雷達上畫出「猙獰光環」（沒有讀條、打王周圍所有人）的範圍外框，AI 站位不變",
+    "LastUpdate": 1795170268,
     "CategoryTags": [
       "Jobs"
     ]
@@ -387,7 +387,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "GatherBuddy Reborn",
     "InternalName": "GatherbuddyReborn",
-    "AssemblyVersion": "7.30.0.16",
+    "AssemblyVersion": "7.30.0.17",
     "Description": "透過物品名稱簡化採集流程，找出節點/魚群位置，並用 UI 追蹤特殊開放時段與天氣條件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/GatherbuddyReborn",
@@ -409,10 +409,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/GatherbuddyReborn.png",
     "Punchline": "把採集與釣魚簡化到極致。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.16/GatherbuddyReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.16/GatherbuddyReborn.zip",
-    "Changelog": "- 其他插件可以向 GatherBuddy 查詢限時採集點素材的預估採集時間（給 Artisan 匯出前確認用，只讀）",
-    "LastUpdate": 1795070123
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.17/GatherbuddyReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.17/GatherbuddyReborn.zip",
+    "Changelog": "- 自動採集寶藏圖時只看玩家背包有沒有同一張：放在僱員身上的同一張不再讓採集清單當成「已經有了」而跳過（每名僱員、陸行鳥鞍囊、玩家背包各可放一張）",
+    "LastUpdate": 1795165913
   },
   {
     "Author": "img02",
@@ -1439,7 +1439,7 @@
     "Author": "Chalkos",
     "Name": "Marketbuddy",
     "InternalName": "Marketbuddy",
-    "AssemblyVersion": "7.30.0.10",
+    "AssemblyVersion": "7.30.0.11",
     "Description": "市場公告板上架與調價的操作輔助。點選「調整價格」時會一次開啟改價視窗、目前市場標價列表與成交紀錄；點一下列表中的商品，你的售價就會自動設為該價格減 1 Gil 並跳回商品列表，同時把價格複製到剪貼簿。若要把同一個價格套用到多個商品，按住 Ctrl 再點「調整價格」即可直接沿用剪貼簿裡的數值。按住 Shift 可暫時略過部分自動化。各項功能都能在設定視窗（/mbuddy）中個別開關。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Marketbuddy",
@@ -1455,10 +1455,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Marketbuddy.png",
     "Punchline": "少點幾下，多賺點 Gil！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.10/Marketbuddy.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.10/Marketbuddy.zip",
-    "Changelog": "- log 多記三件事：定價時和近期成交中位數差太多倍的價（不採用或有佐證照常採用）、批次上架跳過低價下架過的道具、比價排除了幾筆自家與其他角色的僱員掛單",
-    "LastUpdate": 1795058390
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.11/Marketbuddy.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.11/Marketbuddy.zip",
+    "Changelog": "- 批次上架的道具清單新增「全部勾選」按鈕（在「全部取消」旁邊；在製作清單上的道具不會勾，要賣請自己勾）",
+    "LastUpdate": 1795154903
   },
   {
     "Author": "Faye",
