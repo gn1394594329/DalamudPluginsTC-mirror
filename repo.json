@@ -40,7 +40,7 @@
     "Author": "Taurenkey (Puni.sh)",
     "Name": "Artisan",
     "InternalName": "Artisan",
-    "AssemblyVersion": "7.30.0.14",
+    "AssemblyVersion": "7.30.0.15",
     "Description": "整合各種功能的全能製作插件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Artisan",
@@ -58,16 +58,16 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Artisan.png",
     "Punchline": "一款「簡單」的製作插件。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.14/Artisan.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.14/Artisan.zip",
-    "Changelog": "- 專家配方解算器：宇宙探索配方預設追求滿品質、不再停在第三個門檻（可在設定關閉）；法恩娜任務的評價在第三個門檻之後仍隨品質上升，金星常常要滿品質（例：特定用途的布料類從約 76% 提高到滿品質）\n- 宇宙探索製作：奇蹟之材不再插在加工連擊中間（實機曾讓中級／上級加工照全價扣 CP，一次多花 28～42 CP）；奇蹟之材的判定結果在製作中途才算出來時也會寫進紀錄",
-    "LastUpdate": 1795113793
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.15/Artisan.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.15/Artisan.zip",
+    "Changelog": "- 任務確認框跳出時不再一直嘗試開始製作、也不會因此連續報錯而自己停掉；確認框關掉後進了任務才停止製作，取消或過期就接著做；等 Raphael 解算時不再每 1.5 秒重選配方、重按素材",
+    "LastUpdate": 1795181899
   },
   {
     "Author": "Herculezz",
     "Name": "AutoDuty",
     "InternalName": "AutoDuty",
-    "AssemblyVersion": "7.30.0.6",
+    "AssemblyVersion": "7.30.0.8",
     "Description": "自動幫你跑副本，支援親信戰友、劇情輔助器、冒險者分隊、多變或一般模式。需搭配 BossModReborn、vnavmesh 與一款戰鬥循環插件（WrathCombo 或 BossMod AutoRotation）使用。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoDuty",
@@ -87,16 +87,16 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoDuty.png",
     "Punchline": "自動跑本，解放雙手。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.30.0.6/AutoDuty.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.30.0.6/AutoDuty.zip",
-    "Changelog": "- 內部整理（使用上行為不變）：別的插件與多開送來的指令改排同一條佇列，停止時的導航收尾集中到同一個判斷\n- 新增永恆黑暗殲滅戰路線（台服 7.3）",
-    "LastUpdate": 1794943301
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.30.0.8/AutoDuty.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoDuty-v7.30.0.8/AutoDuty.zip",
+    "Changelog": "- 冒險者小隊小怪路段：選新的敵人前先下「號令：戰鬥開始」，等分隊坦克換過去才開打（設定頁可關、可調等待上限）",
+    "LastUpdate": 1795195215
   },
   {
     "Author": "Det",
     "Name": "AutoHook",
     "InternalName": "AutoHook",
-    "AssemblyVersion": "7.30.0.4",
+    "AssemblyVersion": "7.30.0.5",
     "Description": "自動幫你提鉤釣魚,你能相信嗎?\n支援自訂預設集、自動以小釣大、自動刺魚等功能。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoHook",
@@ -116,10 +116,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoHook.png",
     "Punchline": "讓釣魚不再無聊(或更無聊)。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.4/AutoHook.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.4/AutoHook.zip",
-    "Changelog": "- 下載社群預設集時不再從背景執行緒呼叫遊戲函式：匯入改回遊戲主執行緒逐一進行\n- 改設定、切換 preset 時存檔造成的卡頓變小：短時間內的多次存檔合併成一次，寫檔改在背景做",
-    "LastUpdate": 1794992098
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.5/AutoHook.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.5/AutoHook.zip",
+    "Changelog": "- ICE 交出或放棄宇宙探索任務時，沒有臨時預設集要清就不再整份重存設定（以前每交一個任務主執行緒卡一下）",
+    "LastUpdate": 1795182601
   },
   {
     "Author": "кайт машина (Puni.sh)",
@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.27",
+    "AssemblyVersion": "7.30.0.42",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.27/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.27/BossModReborn.zip",
-    "Changelog": "- 新增萬魔殿 荒天之獄4（一般）模組：三魂一體的三下左右半場會依序畫出，對話的分攤與分散、明眸的直線死刑、超鏈回環的甜甜圈範圍 AI 會照著站\n- 新增萬魔殿 荒天之獄2（一般）模組：萬魔殿之柱的塔 AI 會去踩、尖腳的塔只給坦克踩，噴吐絲網會分散、攥魂畫出坦克分攤\n- 新增萬魔殿 煉淨之獄3（一般）模組：阿提斯的巨枝、靜電之月、怪鳥強襲的範圍會預先畫出，半神神聖會分散、半神・中勁風的死刑圈其他人會避開\n- 新增萬魔殿 煉淨之獄2（一般）模組：協同的死刑圈、冥灰的分散、寄生之舞與噴氣的扇形會預先畫出，AI 會避開\n- 水晶塔 暗之世界：模組清單裡地獄三頭犬原本誤顯示成「雷電龍頭」，改回正確名稱\n- 山中戰線澤梅爾要塞 巴特拉爾：雷達上畫出「猙獰光環」（沒有讀條、打王周圍所有人）的範圍外框，AI 站位不變",
-    "LastUpdate": 1795170268,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.42/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.42/BossModReborn.zip",
+    "Changelog": "- 「暫停自動移動」等按住鍵選項新增滑鼠側鍵 4（後退鍵）與側鍵 5（前進鍵）",
+    "LastUpdate": 1795195249,
     "CategoryTags": [
       "Jobs"
     ]
@@ -387,7 +387,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "GatherBuddy Reborn",
     "InternalName": "GatherbuddyReborn",
-    "AssemblyVersion": "7.30.0.17",
+    "AssemblyVersion": "7.30.0.18",
     "Description": "透過物品名稱簡化採集流程，找出節點/魚群位置，並用 UI 追蹤特殊開放時段與天氣條件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/GatherbuddyReborn",
@@ -409,10 +409,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/GatherbuddyReborn.png",
     "Punchline": "把採集與釣魚簡化到極致。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.17/GatherbuddyReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.17/GatherbuddyReborn.zip",
-    "Changelog": "- 自動採集寶藏圖時只看玩家背包有沒有同一張：放在僱員身上的同一張不再讓採集清單當成「已經有了」而跳過（每名僱員、陸行鳥鞍囊、玩家背包各可放一張）",
-    "LastUpdate": 1795165913
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.18/GatherbuddyReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/GatherbuddyReborn-v7.30.0.18/GatherbuddyReborn.zip",
+    "Changelog": "- 自動採集要傳送時，如果你正在用市場佈告板、商店或與 NPC 對話、任務搜尋器的參加確認、傳喚鈴、看過場動畫或交易，會先等你忙完、再隔 2.5 秒才傳送（不再反覆傳送失敗、也不會一離開就被拉走）",
+    "LastUpdate": 1795194864
   },
   {
     "Author": "img02",
@@ -447,7 +447,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Tools",
     "InternalName": "InventoryTools",
-    "AssemblyVersion": "7.30.0.8",
+    "AssemblyVersion": "7.30.0.9",
     "Description": "Allagan Tools 的主要目的是追蹤你所有角色/僱員/公會倉庫中的道具。透過它的篩選系統，你將不再遺失任何道具的蹤跡，也不再不知道道具該收納在哪裡。\n\n雖然這是它的主要功能，但它還擁有相當豐富的其他功能，包括：\n\t- 製作規劃\n\t- 市場公告板整合\n\t- 在搜尋/整理及挑選製作材料時於背包中高亮顯示道具\n\t- 包含商人與取得來源等資訊的道具視窗\n\t- 可完整搜尋的任務/怪物/飛空艇/潛水艇視窗\n\t- 讓你能為特定道具設定複雜搜尋條件的篩選系統\n\t- 提示視窗整合，滑鼠懸停即可查看道具所在位置",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/InventoryTools",
@@ -467,10 +467,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/InventoryTools.png",
     "Punchline": "讓你的 FFXIV 井井有條，輕鬆定位/顯示道具應收納何處、規劃製作，並搜尋怪物、任務、飛空艇與潛水艇！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.8/InventoryTools.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.8/InventoryTools.zip",
-    "Changelog": "- 其他插件查持有數量時（例如 GatherbuddyReborn 採集視窗），背包每變動一次的記憶體配置減少約四分之三，多數情況不再配置大型物件（查詢結果不變）",
-    "LastUpdate": 1795023443
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.9/InventoryTools.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.9/InventoryTools.zip",
+    "Changelog": "- 站在房屋區時不再每幀配置記憶體檢查「這間是不是自己的房子」（判斷結果不變）",
+    "LastUpdate": 1795182656
   },
   {
     "Author": "electr0sheep, Nuko",
@@ -563,7 +563,7 @@
     "Author": "NightmareXIV",
     "Name": "Lifestream",
     "InternalName": "Lifestream",
-    "AssemblyVersion": "7.30.0.8",
+    "AssemblyVersion": "7.30.0.9",
     "Description": "- 一鍵傳送至任何世界或都市傳送網目的地\n- 點擊區域地圖上的城內乙太之晶即可傳送過去",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Lifestream",
@@ -584,10 +584,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Lifestream.png",
     "Punchline": "加速都市傳送網移動與跨世界旅行的插件。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.8/Lifestream.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.8/Lifestream.zip",
-    "Changelog": "- 其他插件呼叫停止時更穩定（不再在背景執行緒建立介面元件）",
-    "LastUpdate": 1795028277
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.9/Lifestream.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.9/Lifestream.zip",
+    "Changelog": "- 傳送到城內乙太之晶時人已經站在它旁邊：有設自訂落點就直接走過去，不再只跳提示什麼都不做（AutoRetainer 稀有品繳交換角後不會再卡住）",
+    "LastUpdate": 1795175701
   },
   {
     "Author": "apetih",
@@ -853,7 +853,7 @@
     "Author": "daemitus, croizat",
     "Name": "Something Need Doing",
     "InternalName": "SomethingNeedDoing",
-    "AssemblyVersion": "7.30.0.1",
+    "AssemblyVersion": "7.30.0.2",
     "Description": "現在不只能用於生產，功能更多！",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/SomethingNeedDoing",
@@ -872,10 +872,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/SomethingNeedDoing.png",
     "Punchline": "工作，工作。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.1/SomethingNeedDoing.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.1/SomethingNeedDoing.zip",
-    "Changelog": "- 台服 7.3 改版：版號推進到 7.30（插件功能不變）",
-    "LastUpdate": 1794907083,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.2/SomethingNeedDoing.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.2/SomethingNeedDoing.zip",
+    "Changelog": "- Lua 巨集可以控制 ICE 宇宙探索：啟動／停止、設定「做完目前任務就停」、查詢是否還在執行與目前任務",
+    "LastUpdate": 1795194310,
     "CategoryTags": [
       "Utility"
     ]
@@ -1181,7 +1181,7 @@
     "Author": "MidoriKami",
     "Name": "DailyDuty",
     "InternalName": "DailyDuty",
-    "AssemblyVersion": "7.30.0.6",
+    "AssemblyVersion": "7.30.0.7",
     "Description": "自動追蹤並完成各種每日與每週任務",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/DailyDuty",
@@ -1204,10 +1204,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/DailyDuty.png",
     "Punchline": "輕鬆追蹤每日／每週任務",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.6/DailyDuty.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.6/DailyDuty.zip",
-    "Changelog": "- 軍隊分隊：任務完成時間改用實際時長（1 小時的任務不再顯示 18 小時）",
-    "LastUpdate": 1795028264
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.7/DailyDuty.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.7/DailyDuty.zip",
+    "Changelog": "- 每週討伐輔助：打完一張通緝目標後自動前往下一張通緝令（可在巡邏設定關閉）",
+    "LastUpdate": 1795194997
   },
   {
     "Author": "liza, qstxiv, & various contributors",
@@ -1301,7 +1301,7 @@
     "Author": "Usagi, PlusoneChiang",
     "Name": "IINACT",
     "InternalName": "IINACT",
-    "AssemblyVersion": "7.30.0.9",
+    "AssemblyVersion": "7.30.0.10",
     "Description": "在類 ACT 環境中直接執行 FFXIV_ACT_Plugin 的戰鬥數據解析插件,內建深度改造的 Overlay Plugin 移植版,無需另外安裝 ACT。\n可搭配 Crossingway 在遊戲內顯示戰鬥數據覆蓋層。\nFork 自 marzent/IINACT(繁體中文版客戶端,API 13 / .NET 9,TC opcodes 由 PlusoneChiang 維護)。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/IINACT",
@@ -1321,10 +1321,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/IINACT.png",
     "Punchline": "免 ACT 的戰鬥數據解析插件。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.30.0.9/IINACT.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.30.0.9/IINACT.zip",
-    "Changelog": "- 懸浮視窗戰鬥中更新時，最高一擊、最高治療與總傷害、總治療的計算不再每次配置暫存（數字不變）；每小時在紀錄檔寫一行戰鬥資料量計數",
-    "LastUpdate": 1794999834
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.30.0.10/IINACT.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/IINACT-v7.30.0.10/IINACT.zip",
+    "Changelog": "- 懸浮視窗更新剛好碰上新的戰鬥資料寫入時，不再偶爾丟掉那一次更新，隊友清單也不會暫時漏人",
+    "LastUpdate": 1795181871
   },
   {
     "Author": "Ice",
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.7",
+    "AssemblyVersion": "7.30.0.10",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.7/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.7/ICE.zip",
-    "Changelog": "- 宇宙好運道自動執行的除錯記錄改正比較方向（只改文字，判定不變）\n- 宇宙工具經驗模式：最近拿不到金星的製作任務在 30 分鐘內排到最後，不再馬上重接（預設開，可關、分鐘數可調）；工具經驗全滿又沒開自動回報時會寫一行說明\n- 宇宙探索任務面板的讀取記錄改在面板開好之後才寫，讀不到時自動附上面板文字；宇宙好運道選邊記錄列出兩邊獎品與權重\n- 宇宙探索：騎乘中不再把製作職誤判成還沒學會「掌握」（改以技能解鎖紀錄為準）",
-    "LastUpdate": 1795112761
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.10/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.10/ICE.zip",
+    "Changelog": "- 緊急任務結束後先返回基地再接下一個任務（設定頁「自動化」可關，預設開；30 秒內回不去就照常繼續）",
+    "LastUpdate": 1795195428
   },
   {
     "Author": "Liza Carvelli",
@@ -1500,7 +1500,7 @@
     "Author": "ffxiv-tc-port",
     "Name": "TC Toolbox",
     "InternalName": "TCToolbox",
-    "AssemblyVersion": "7.30.0.8",
+    "AssemblyVersion": "7.30.0.10",
     "Description": "台服自製 QoL 工具箱，內含上百個獨立模組，分成「背包・裝備」「戰鬥・小隊」「公會・生活」「介面・雜項」四類，可在設定視窗逐一開關。預設只開啟 3 個純顯示或只寫紀錄的模組，其餘預設關閉。涵蓋背包整理與搬移、公會合建交料、陸行鳥餵食、園圃作業、隊伍招募輔助、周邊玩家與敵人清單等。指令 /tctoolbox 開啟設定視窗。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/TCToolbox",
@@ -1516,10 +1516,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/TCToolbox.png",
     "Punchline": "台服 QoL 模組集：背包、戰鬥小隊、公會生活、介面雜項，每個模組獨立開關。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.8/TCToolbox.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.8/TCToolbox.zip",
-    "Changelog": "- 國防聯軍分隊：打開分隊任務／編組／訓練視窗時在 log 記下遊戲算好的需求與隊伍數值（只讀，為之後自動選任務做準備）",
-    "LastUpdate": 1795051220
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.10/TCToolbox.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.10/TCToolbox.zip",
+    "Changelog": "- 國防聯軍分隊診斷：編組名單人數格型別、無獎勵任務的獎勵數量、隊伍不足 4 人時推得的訓練值不再誤報",
+    "LastUpdate": 1795183470
   },
   {
     "Author": "daemitus, MidoriKami",
