@@ -40,7 +40,7 @@
     "Author": "Taurenkey (Puni.sh)",
     "Name": "Artisan",
     "InternalName": "Artisan",
-    "AssemblyVersion": "7.30.0.17",
+    "AssemblyVersion": "7.30.0.21",
     "Description": "整合各種功能的全能製作插件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Artisan",
@@ -58,10 +58,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Artisan.png",
     "Punchline": "一款「簡單」的製作插件。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.17/Artisan.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.17/Artisan.zip",
-    "Changelog": "- Raphael 解算器：最高品質時先放品質技能，狀態技能挪到接下來的低品質再放；低品質時先放狀態技能或補耐久，加工延到下一步（模擬確認做得完才調整）\n- Raphael 解算器：品質已經滿了就跳過剩下的品質技能，直接開始做進展（省步數，也不會白耗能工巧匠圖紙；設定可關，預設開）\n- 專家配方解算器：倉促成功後會接冒進（工匠的良機只留一次作業），不再改用儉約加工或先補不急的耐久；設定可關，預設開",
-    "LastUpdate": 1795251963
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.21/Artisan.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.21/Artisan.zip",
+    "Changelog": "- 專家配方解算器：有必要品質的配方（品質不夠就失敗，例如宇宙探索高難任務的中間素材）成功率提高：工匠的絕技留到闊步＋改革下放坯料加工、內靜疊滿前不在長持續放原價掌握、進展很少的配方先做完進展；高效狀態補耐久改用巧奪天工；設定可關，預設開",
+    "LastUpdate": 1795272641
   },
   {
     "Author": "Herculezz",
@@ -125,7 +125,7 @@
     "Author": "кайт машина (Puni.sh)",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "7.30.0.10",
+    "AssemblyVersion": "7.30.0.11",
     "Description": "躺在床上就能收取並指派僱員的遠航任務。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoRetainer",
@@ -137,10 +137,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoRetainer.png",
     "Punchline": "躺著也能派遣僱員出去探險。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.10/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.10/AutoRetainer.zip",
-    "Changelog": "- 稀有品繳交循環：繳交回來不再重開這個角色已經取完的僱員，僱員清單顯示背包 0 件的也不打開（每趟約省 2～6 分鐘）",
-    "LastUpdate": 1795074364,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.11/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.11/AutoRetainer.zip",
+    "Changelog": "- 「跑一輪就回來」開放給其他插件與巨集：可以開始、查進度、查上一趟是換回原角色還是被取消，也能只取消自己開的那一趟",
+    "LastUpdate": 1795270886,
     "CategoryTags": [
       "Inventory"
     ]
@@ -853,7 +853,7 @@
     "Author": "daemitus, croizat",
     "Name": "Something Need Doing",
     "InternalName": "SomethingNeedDoing",
-    "AssemblyVersion": "7.30.0.3",
+    "AssemblyVersion": "7.30.0.4",
     "Description": "現在不只能用於生產，功能更多！",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/SomethingNeedDoing",
@@ -872,10 +872,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/SomethingNeedDoing.png",
     "Punchline": "工作，工作。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.3/SomethingNeedDoing.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.3/SomethingNeedDoing.zip",
-    "Changelog": "- Lua 巨集可以查 ICE 上一次為什麼停下來（IPC.ICE.StopReason），ICE 舊版沒有這項時回 nil、巨集照常執行\n- 巨集停止後馬上再執行，新的一輪不會再被上一輪的收尾中斷（上一輪還在收尾時會排隊，收完就開始）",
-    "LastUpdate": 1795229571,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.4/SomethingNeedDoing.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/SomethingNeedDoing-v7.30.0.4/SomethingNeedDoing.zip",
+    "Changelog": "- Lua 巨集可以使用 AutoRetainer 的「跑一輪就回來」（IPC.AutoRetainer.RoundTrip*），AutoRetainer 舊版沒有這項時回 0／nil／false、巨集照常執行",
+    "LastUpdate": 1795270844,
     "CategoryTags": [
       "Utility"
     ]
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.11",
+    "AssemblyVersion": "7.30.0.12",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.11/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.11/ICE.zip",
-    "Changelog": "- 巨集與其他插件可以查到 ICE 為什麼停下來（宇宙工具經驗已滿、做完目前任務就停、被叫停等），停下時也會在紀錄寫一行原因",
-    "LastUpdate": 1795229578
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.12/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.12/ICE.zip",
+    "Changelog": "- 機甲行動：認得 7.3 新技能（強力吸取器、拖曳光束等），法恩娜石採掘指令能判出駕駛員／協助員；強力吸取器扇形預設改 80 度；機甲技能那行紀錄不再每秒重印\n- 宇宙製作：Artisan 做完但製作失敗（品質沒到必要品質等）不再被當成「沒有進展」而停下 ICE；同一個任務這一輪製作失敗 2 次就放棄換任務，宇宙工具經驗模式會把它排到最後 30 分鐘",
+    "LastUpdate": 1795271014
   },
   {
     "Author": "Liza Carvelli",
