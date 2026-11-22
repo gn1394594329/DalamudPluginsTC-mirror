@@ -40,7 +40,7 @@
     "Author": "Taurenkey (Puni.sh)",
     "Name": "Artisan",
     "InternalName": "Artisan",
-    "AssemblyVersion": "7.30.0.21",
+    "AssemblyVersion": "7.30.0.22",
     "Description": "整合各種功能的全能製作插件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Artisan",
@@ -58,10 +58,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Artisan.png",
     "Punchline": "一款「簡單」的製作插件。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.21/Artisan.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.21/Artisan.zip",
-    "Changelog": "- 專家配方解算器：有必要品質的配方（品質不夠就失敗，例如宇宙探索高難任務的中間素材）成功率提高：工匠的絕技留到闊步＋改革下放坯料加工、內靜疊滿前不在長持續放原價掌握、進展很少的配方先做完進展；高效狀態補耐久改用巧奪天工；設定可關，預設開",
-    "LastUpdate": 1795272641
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.22/Artisan.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.22/Artisan.zip",
+    "Changelog": "- 素材表右鍵「加進 GatherBuddy」：限時採集點素材的滑鼠提示多一行預估採集時間與市價，按下照舊直接送出",
+    "LastUpdate": 1795347905
   },
   {
     "Author": "Herculezz",
@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.42",
+    "AssemblyVersion": "7.30.0.53",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.42/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.42/BossModReborn.zip",
-    "Changelog": "- 「暫停自動移動」等按住鍵選項新增滑鼠側鍵 4（後退鍵）與側鍵 5（前進鍵）",
-    "LastUpdate": 1795195249,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.53/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.53/BossModReborn.zip",
+    "Changelog": "- 複製工廠廢墟 恩格斯：高性能追蹤飛彈（只點三名坦克）改報成死刑，坦克的死刑減傷看得到它\n- 減傷預判：標成死刑的誘導（頭標、施法點名）改報成死刑，不再當成全體傷害開團減；另補標 5 招只打坦克的誘導",
+    "LastUpdate": 1795373823,
     "CategoryTags": [
       "Jobs"
     ]
@@ -1058,7 +1058,7 @@
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "InternalName": "WrathCombo",
-    "AssemblyVersion": "7.30.0.16",
+    "AssemblyVersion": "7.30.0.21",
     "Description": "將連段技能與互斥技能整合到單一按鍵，並提供額外的自動戰鬥輔助功能。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/WrathCombo",
@@ -1078,12 +1078,12 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/WrathCombo.png",
-    "Changelog": "- 設定「縮短伺服器資訊列文字」改為停用並標示無作用：本版伺服器資訊欄只顯示圖示",
+    "Changelog": "- 自動團減依危險度判斷時，排在前面的低危散開不再擋住後面那發真正的全體傷害（需搭配新版 BossModReborn）",
     "Punchline": "將連段技能與互斥技能整合到單一按鍵——不只如此。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.16/WrathCombo.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.16/WrathCombo.zip",
-    "LastUpdate": 1795031622,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.21/WrathCombo.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.21/WrathCombo.zip",
+    "LastUpdate": 1795368881,
     "CategoryTags": [
       "Jobs"
     ]
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.12",
+    "AssemblyVersion": "7.30.0.14",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.12/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.12/ICE.zip",
-    "Changelog": "- 機甲行動：認得 7.3 新技能（強力吸取器、拖曳光束等），法恩娜石採掘指令能判出駕駛員／協助員；強力吸取器扇形預設改 80 度；機甲技能那行紀錄不再每秒重印\n- 宇宙製作：Artisan 做完但製作失敗（品質沒到必要品質等）不再被當成「沒有進展」而停下 ICE；同一個任務這一輪製作失敗 2 次就放棄換任務，宇宙工具經驗模式會把它排到最後 30 分鐘",
-    "LastUpdate": 1795271014
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.14/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.14/ICE.zip",
+    "Changelog": "- 宇宙探索：法恩娜釣魚任務「【高難+】調查熔火湧流的分布」「【高難+】調查火山口地帶的熔融玻璃類精靈」補上內建 AutoHook 釣魚設定，不再標為未支援\n- 限定任務模式：新增「只刷勾選中未金星的任務」選項（預設關），勾選的限定任務都拿到金星就停止並在聊天視窗說明；任務表上方顯示勾選數與未金星數",
+    "LastUpdate": 1795373985
   },
   {
     "Author": "Liza Carvelli",
