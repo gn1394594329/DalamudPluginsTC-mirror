@@ -40,7 +40,7 @@
     "Author": "Taurenkey (Puni.sh)",
     "Name": "Artisan",
     "InternalName": "Artisan",
-    "AssemblyVersion": "7.30.0.22",
+    "AssemblyVersion": "7.30.0.23",
     "Description": "整合各種功能的全能製作插件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Artisan",
@@ -58,10 +58,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Artisan.png",
     "Punchline": "一款「簡單」的製作插件。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.22/Artisan.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.22/Artisan.zip",
-    "Changelog": "- 素材表右鍵「加進 GatherBuddy」：限時採集點素材的滑鼠提示多一行預估採集時間與市價，按下照舊直接送出",
-    "LastUpdate": 1795347905
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.23/Artisan.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Artisan-v7.30.0.23/Artisan.zip",
+    "Changelog": "- 購物估算：每個世界改挑實際付款最少的掛單組合，買得齊的世界不再被只買得到一部分的世界蓋掉",
+    "LastUpdate": 1795424170
   },
   {
     "Author": "Herculezz",
@@ -96,7 +96,7 @@
     "Author": "Det",
     "Name": "AutoHook",
     "InternalName": "AutoHook",
-    "AssemblyVersion": "7.30.0.6",
+    "AssemblyVersion": "7.30.0.8",
     "Description": "自動幫你提鉤釣魚,你能相信嗎?\n支援自訂預設集、自動以小釣大、自動刺魚等功能。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoHook",
@@ -116,16 +116,16 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoHook.png",
     "Punchline": "讓釣魚不再無聊(或更無聊)。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.6/AutoHook.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.6/AutoHook.zip",
-    "Changelog": "- 宇宙探索釣魚：匯入的新版 preset（ICE 內建等）裡的技能條件、規則（自動換餌／換 preset）、熟練妙招開始生效（游動餌自動切換等台服驗證後再開）",
-    "LastUpdate": 1795376793
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.8/AutoHook.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoHook-v7.30.0.8/AutoHook.zip",
+    "Changelog": "- 起始餌、額外設定（幻海流、漁師之識、漁師之計）與釣到魚後的自動換餌，每次換餌都會在插件紀錄寫一行由哪個設定觸發\n- 釣魚：preset 的游動餌自動切換開始生效；拍擊水面／專一垂釣期間與空欄位不送切換，送出後確認選中才拋竿（最多等 1.5 秒），選了游動餌後也能換回原本那顆一般餌",
+    "LastUpdate": 1795420664
   },
   {
     "Author": "кайт машина (Puni.sh)",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "7.30.0.11",
+    "AssemblyVersion": "7.30.0.12",
     "Description": "躺在床上就能收取並指派僱員的遠航任務。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoRetainer",
@@ -137,10 +137,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoRetainer.png",
     "Punchline": "躺著也能派遣僱員出去探險。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.11/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.11/AutoRetainer.zip",
-    "Changelog": "- 「跑一輪就回來」開放給其他插件與巨集：可以開始、查進度、查上一趟是換回原角色還是被取消，也能只取消自己開的那一趟",
-    "LastUpdate": 1795270886,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.12/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.12/AutoRetainer.zip",
+    "Changelog": "- 探險瀏覽器的「查詢價格」改開 TC Toolbox「僱員探險收益」視窗並定位到該物品（沒開那個模組時改用 Market Board 插件，兩者都沒有就不顯示按鈕）；新增唯讀的探險帶回數量介面給其他插件",
+    "LastUpdate": 1795425544,
     "CategoryTags": [
       "Inventory"
     ]
@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.53",
+    "AssemblyVersion": "7.30.0.54",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.53/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.53/BossModReborn.zip",
-    "Changelog": "- 複製工廠廢墟 恩格斯：高性能追蹤飛彈（只點三名坦克）改報成死刑，坦克的死刑減傷看得到它\n- 減傷預判：標成死刑的誘導（頭標、施法點名）改報成死刑，不再當成全體傷害開團減；另補標 5 招只打坦克的誘導",
-    "LastUpdate": 1795373823,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.54/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.54/BossModReborn.zip",
+    "Changelog": "- 零式女王古殿 求道之三位一體、女王騎士等四人：拿掉一定會失敗的場地變化元件停用（每次開戰後換階段時記一筆錯誤，畫面不受影響）\n- 天山絕頂索姆阿爾靈峰 邁思、樂欲之所甌博訥修道院 聖天使阿爾蒂瑪、禁地優雷卡 豐水之地 兵武塔調查支援、假面狂歡（奧爾特羅斯&杜彭、模仿師格格）：拿掉重複啟用的元件（開戰時記錯誤，畫面不受影響）\n- 白虎幻巧戰：全體攻擊的元件每次讀條結束就收回，不再在下一次全體攻擊時重複啟用（之前每場記 2 筆錯誤並換掉舊的元件）\n- 榮華神域塔利亞 歐羅基亞：第二輪隨機機制開始時，不再把還在運作的 18 個機制元件整批換成新的（換掉會丟掉它們已記下的狀態，並在紀錄寫 18 筆錯誤）",
+    "LastUpdate": 1795424186,
     "CategoryTags": [
       "Jobs"
     ]
@@ -447,7 +447,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Tools",
     "InternalName": "InventoryTools",
-    "AssemblyVersion": "7.30.0.9",
+    "AssemblyVersion": "7.30.0.10",
     "Description": "Allagan Tools 的主要目的是追蹤你所有角色/僱員/公會倉庫中的道具。透過它的篩選系統，你將不再遺失任何道具的蹤跡，也不再不知道道具該收納在哪裡。\n\n雖然這是它的主要功能，但它還擁有相當豐富的其他功能，包括：\n\t- 製作規劃\n\t- 市場公告板整合\n\t- 在搜尋/整理及挑選製作材料時於背包中高亮顯示道具\n\t- 包含商人與取得來源等資訊的道具視窗\n\t- 可完整搜尋的任務/怪物/飛空艇/潛水艇視窗\n\t- 讓你能為特定道具設定複雜搜尋條件的篩選系統\n\t- 提示視窗整合，滑鼠懸停即可查看道具所在位置",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/InventoryTools",
@@ -467,10 +467,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/InventoryTools.png",
     "Punchline": "讓你的 FFXIV 井井有條，輕鬆定位/顯示道具應收納何處、規劃製作，並搜尋怪物、任務、飛空艇與潛水艇！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.9/InventoryTools.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.9/InventoryTools.zip",
-    "Changelog": "- 站在房屋區時不再每幀配置記憶體檢查「這間是不是自己的房子」（判斷結果不變）",
-    "LastUpdate": 1795182656
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.10/InventoryTools.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.10/InventoryTools.zip",
+    "Changelog": "- 新增「貨幣兌換價值排行」視窗（/atcurrency，主視窗「視窗」選單也有）：選一種貨幣，列出能換的東西每 1 單位值多少 Gil、每日成交與資料時間；79 家舊裝備兌換商店的成本改正為詩學神典石",
+    "LastUpdate": 1795425674
   },
   {
     "Author": "electr0sheep, Nuko",
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.15",
+    "AssemblyVersion": "7.30.0.16",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.15/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.15/ICE.zip",
-    "Changelog": "- 宇宙探索：雙職業的釣魚任務指定了自訂 AutoHook preset 時會切過去；匯入內建 preset 時記錄 AutoHook 吃不下的設定\n- 宇宙探索：法恩娜釣魚任務「【高難】高效籌備稀有水產資源」「【高難】調查河川流域的水中類精靈」換成上游的整包資料夾設定，修正換階卡住",
-    "LastUpdate": 1795376832
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.16/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.16/ICE.zip",
+    "Changelog": "- 宇宙探索：釣魚任務的內建 AutoHook 釣魚設定自己指定了餌時，ICE 不再在拋竿前把餌換回身上第一個月面餌，交給 AutoHook 換\n- 宇宙探索：釣魚任務換了目標（中途停止再開始、或上一個任務是手動接的）時，不再走去舊任務的釣點後原地卡住",
+    "LastUpdate": 1795419884
   },
   {
     "Author": "Liza Carvelli",
@@ -1500,7 +1500,7 @@
     "Author": "ffxiv-tc-port",
     "Name": "TC Toolbox",
     "InternalName": "TCToolbox",
-    "AssemblyVersion": "7.30.0.10",
+    "AssemblyVersion": "7.30.0.12",
     "Description": "台服自製 QoL 工具箱，內含上百個獨立模組，分成「背包・裝備」「戰鬥・小隊」「公會・生活」「介面・雜項」四類，可在設定視窗逐一開關。預設只開啟 3 個純顯示或只寫紀錄的模組，其餘預設關閉。涵蓋背包整理與搬移、公會合建交料、陸行鳥餵食、園圃作業、隊伍招募輔助、周邊玩家與敵人清單等。指令 /tctoolbox 開啟設定視窗。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/TCToolbox",
@@ -1516,10 +1516,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/TCToolbox.png",
     "Punchline": "台服 QoL 模組集：背包、戰鬥小隊、公會生活、介面雜項，每個模組獨立開關。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.10/TCToolbox.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.10/TCToolbox.zip",
-    "Changelog": "- 國防聯軍分隊診斷：編組名單人數格型別、無獎勵任務的獎勵數量、隊伍不足 4 人時推得的訓練值不再誤報",
-    "LastUpdate": 1795183470
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.12/TCToolbox.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.12/TCToolbox.zip",
+    "Changelog": "- 新增「僱員探險收益」模組（預設關，公會 · 生活分頁）：每位僱員一列，列出目前的探險、最賺的指定探險、每趟與每小時能換多少 Gil、賣得完係數與行情資料時間，可排序、可展開看前幾名；按「查價」才向 Universalis 查家世界行情。需要 AutoRetainer 新版",
+    "LastUpdate": 1795425545
   },
   {
     "Author": "daemitus, MidoriKami",
