@@ -125,7 +125,7 @@
     "Author": "кайт машина (Puni.sh)",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "7.30.0.14",
+    "AssemblyVersion": "7.30.0.15",
     "Description": "躺在床上就能收取並指派僱員的遠航任務。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoRetainer",
@@ -137,10 +137,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoRetainer.png",
     "Punchline": "躺著也能派遣僱員出去探險。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.14/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.14/AutoRetainer.zip",
-    "Changelog": "- 僱員設定的「委託物品」計畫下拉與「遊戲啟動時自動登入」的角色下拉跟著字型大小放大，名字＠世界不再被截掉",
-    "LastUpdate": 1795450443,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.15/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.15/AutoRetainer.zip",
+    "Changelog": "- 交完軍票後自動用軍票換物品時，人先離開主城（例如走進軍營找分隊軍曹）不再報錯：這輪換物品直接停下並在 log 記一行還剩幾項沒換，不會把你帶回去，也不會在別的區域去按軍需官的視窗",
+    "LastUpdate": 1795513013,
     "CategoryTags": [
       "Inventory"
     ]
@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.61",
+    "AssemblyVersion": "7.30.0.63",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.61/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.61/BossModReborn.zip",
-    "Changelog": "- AI 狀態改變時寫進紀錄：開關、跟隨對象、禁止移動／禁止技能／騎乘時閒置與 AI 預設，附改前改後與來源",
-    "LastUpdate": 1795464275,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.63/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.63/BossModReborn.zip",
+    "Changelog": "- 樂欲之所甌博訥修道院 雷神希德：「無雙閃電突刺」的圓與環改照各自的讀條出現與消失，不再有一圈危險區留到戰鬥結束\n- 桑多利亞：第二巡行 小怪戰：克拉肯在讀「吸蝕」時被打倒，之後不會來的「洪水」危險區不再一直留著擋路",
+    "LastUpdate": 1795508919,
     "CategoryTags": [
       "Jobs"
     ]
@@ -563,7 +563,7 @@
     "Author": "NightmareXIV",
     "Name": "Lifestream",
     "InternalName": "Lifestream",
-    "AssemblyVersion": "7.30.0.11",
+    "AssemblyVersion": "7.30.0.13",
     "Description": "- 一鍵傳送至任何世界或都市傳送網目的地\n- 點擊區域地圖上的城內乙太之晶即可傳送過去",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Lifestream",
@@ -584,10 +584,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Lifestream.png",
     "Punchline": "加速都市傳送網移動與跨世界旅行的插件。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.11/Lifestream.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.11/Lifestream.zip",
-    "Changelog": "- 經好友傳送：讀好友房屋清單多一道檢查，同一種房屋在清單上重複出現就停手，改由你在遊戲視窗自己選\n- 新增「經好友傳送」：輸入 /li friend <好友名字>，或在「工具」頁選好友，經遊戲好友名單的房屋傳送前往好友的個人房屋、公寓或公會房屋",
-    "LastUpdate": 1795451060
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.13/Lifestream.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Lifestream-v7.30.0.13/Lifestream.zip",
+    "Changelog": "- 渴望灣：解鎖行星法恩娜後，傳送面板那一列、浮動面板按鈕、/li goto、地圖點、Wotsit、自訂別名也都改走直接進渴望灣的流程（選單沒有渴望灣就騎去找駕駛威），沒到就停下、不再接著走自訂落點",
+    "LastUpdate": 1795496146
   },
   {
     "Author": "apetih",
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.24",
+    "AssemblyVersion": "7.30.0.26",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.24/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.24/ICE.zip",
-    "Changelog": "- 宇宙探索「換一批任務」（接下再放棄來刷新清單）時，不再每次都記一行「放棄任務時沒有正在計時的任務」警告\n- 宇宙探索製作任務開工前先自動下坐騎：騎著坐騎按開始、或趕路騎著接到製作任務時，不會再讓 Artisan 連續出錯而停用",
-    "LastUpdate": 1795459370
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.26/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.26/ICE.zip",
+    "Changelog": "- 宇宙探索：任務中途收手改按「回報結果」交件時，也會判定金星／銀星／銅星，交件次數統計與記錄的任務分數不再記錯\n- 宇宙探索：修正法恩娜 9 個任務的內建分數（「研究法恩娜資源活用方法」等 8 個職業的同一級任務 78 改 50、任務 902 由 6 改 5），任務排序與每分鐘成果改用正確值",
+    "LastUpdate": 1795508667
   },
   {
     "Author": "Liza Carvelli",
@@ -1439,7 +1439,7 @@
     "Author": "Chalkos",
     "Name": "Marketbuddy",
     "InternalName": "Marketbuddy",
-    "AssemblyVersion": "7.30.0.15",
+    "AssemblyVersion": "7.30.0.16",
     "Description": "市場公告板上架與調價的操作輔助。點選「調整價格」時會一次開啟改價視窗、目前市場標價列表與成交紀錄；點一下列表中的商品，你的售價就會自動設為該價格減 1 Gil 並跳回商品列表，同時把價格複製到剪貼簿。若要把同一個價格套用到多個商品，按住 Ctrl 再點「調整價格」即可直接沿用剪貼簿裡的數值。按住 Shift 可暫時略過部分自動化。各項功能都能在設定視窗（/mbuddy）中個別開關。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Marketbuddy",
@@ -1455,10 +1455,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Marketbuddy.png",
     "Punchline": "少點幾下，多賺點 Gil！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.15/Marketbuddy.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.15/Marketbuddy.zip",
-    "Changelog": "- 設定視窗、各面板的輸入框寬度與買入面板改照 Dalamud 字型大小放大：把字放大的人不會再看到被擠窄的輸入框；出廠字型大小下尺寸與原本相同\n- 即時掛單面板：新增「常見買量」欄，按「查日銷」時一起帶回最近成交每筆買了幾個，列上顯示最常見的件數、滑鼠移上去看分布；沒查過或最近 7 天沒成交顯示灰色「?」",
-    "LastUpdate": 1795445938
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.16/Marketbuddy.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.16/Marketbuddy.zip",
+    "Changelog": "- 重掛、快速上架與批次上架要查的最近成交價改成照上架順序、每批最多 20 件分批查：一次排很多件時不會因為一個大請求逾時而整批拿不到近期成交價，最先上架的幾件也最先查到\n- 快速上架與批次上架不再每件白等 Universalis 25 秒：要上架的道具一排進去就先查最近成交價，單件最多等 8 秒；Universalis 剛逾時或失敗時接下來的道具直接照原本的方式定價，查成功一次就恢復；「拿不到最近成交價」的提示 5 分鐘內只講一次",
+    "LastUpdate": 1795511252
   },
   {
     "Author": "Faye",
