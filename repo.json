@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.63",
+    "AssemblyVersion": "7.30.0.66",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.63/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.63/BossModReborn.zip",
-    "Changelog": "- 樂欲之所甌博訥修道院 雷神希德：「無雙閃電突刺」的圓與環改照各自的讀條出現與消失，不再有一圈危險區留到戰鬥結束\n- 桑多利亞：第二巡行 小怪戰：克拉肯在讀「吸蝕」時被打倒，之後不會來的「洪水」危險區不再一直留著擋路",
-    "LastUpdate": 1795508919,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.66/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.66/BossModReborn.zip",
+    "Changelog": "- 寶物庫：獎勵怪任何時候都優先於普通怪、曼德拉戰隊照擊殺順序；新增「寶物庫：目標鎖定獎勵怪」（預設關），開啟後遊戲目標會鎖在該打的那隻直到倒下",
+    "LastUpdate": 1795537838,
     "CategoryTags": [
       "Jobs"
     ]
@@ -447,7 +447,7 @@
     "Author": "Critical_Impact",
     "Name": "Allagan Tools",
     "InternalName": "InventoryTools",
-    "AssemblyVersion": "7.30.0.14",
+    "AssemblyVersion": "7.30.0.15",
     "Description": "Allagan Tools 的主要目的是追蹤你所有角色/僱員/公會倉庫中的道具。透過它的篩選系統，你將不再遺失任何道具的蹤跡，也不再不知道道具該收納在哪裡。\n\n雖然這是它的主要功能，但它還擁有相當豐富的其他功能，包括：\n\t- 製作規劃\n\t- 市場公告板整合\n\t- 在搜尋/整理及挑選製作材料時於背包中高亮顯示道具\n\t- 包含商人與取得來源等資訊的道具視窗\n\t- 可完整搜尋的任務/怪物/飛空艇/潛水艇視窗\n\t- 讓你能為特定道具設定複雜搜尋條件的篩選系統\n\t- 提示視窗整合，滑鼠懸停即可查看道具所在位置",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/InventoryTools",
@@ -467,10 +467,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/InventoryTools.png",
     "Punchline": "讓你的 FFXIV 井井有條，輕鬆定位/顯示道具應收納何處、規劃製作，並搜尋怪物、任務、飛空艇與潛水艇！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.14/InventoryTools.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.14/InventoryTools.zip",
-    "Changelog": "- 製作清單裡之前手動選過「公會商店」取得的物品，載入時把公會點數成本從 1 改成商店標價（例：飛空艇登記票 10,000）",
-    "LastUpdate": 1795450448
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.15/InventoryTools.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/InventoryTools-v7.30.0.15/InventoryTools.zip",
+    "Changelog": "- 貨幣兌換價值排行加入宇宙信用點數、十二城邦銀幣／金幣、青船幣等 9 種貨幣，並可勾選只看哪些角色（預設全部角色）",
+    "LastUpdate": 1795538316
   },
   {
     "Author": "electr0sheep, Nuko",
@@ -1058,7 +1058,7 @@
     "Author": "Team Wrath",
     "Name": "Wrath Combo",
     "InternalName": "WrathCombo",
-    "AssemblyVersion": "7.30.0.22",
+    "AssemblyVersion": "7.30.0.24",
     "Description": "將連段技能與互斥技能整合到單一按鍵，並提供額外的自動戰鬥輔助功能。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/WrathCombo",
@@ -1078,12 +1078,12 @@
     "CanUnloadAsync": false,
     "LoadPriority": 0,
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/WrathCombo.png",
-    "Changelog": "- 自動循環在 BossModReborn 要求停手的機制期間（熱病、加速度炸彈、舉起的聖盾防禦等）暫停出招，解除後自動恢復（新設定預設開啟，你自己按的技能不擋）",
+    "Changelog": "- 赤魔道士自動復活：魔力只夠最後一發時只留給坦克與治療職業；小隊坦克或治療職業全倒時中斷輸出循環先拉人；之後依治療職業、坦克、DPS 的順序復活（三項預設開啟，在自動循環的治療設定裡）",
     "Punchline": "將連段技能與互斥技能整合到單一按鍵——不只如此。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.22/WrathCombo.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.22/WrathCombo.zip",
-    "LastUpdate": 1795453291,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.24/WrathCombo.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/WrathCombo-v7.30.0.24/WrathCombo.zip",
+    "LastUpdate": 1795535166,
     "CategoryTags": [
       "Jobs"
     ]
@@ -1181,7 +1181,7 @@
     "Author": "MidoriKami",
     "Name": "DailyDuty",
     "InternalName": "DailyDuty",
-    "AssemblyVersion": "7.30.0.7",
+    "AssemblyVersion": "7.30.0.9",
     "Description": "自動追蹤並完成各種每日與每週任務",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/DailyDuty",
@@ -1204,10 +1204,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/DailyDuty.png",
     "Punchline": "輕鬆追蹤每日／每週任務",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.7/DailyDuty.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.7/DailyDuty.zip",
-    "Changelog": "- 每週討伐輔助：打完一張通緝目標後自動前往下一張通緝令（可在巡邏設定關閉）",
-    "LastUpdate": 1795194997
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.9/DailyDuty.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/DailyDuty-v7.30.0.9/DailyDuty.zip",
+    "Changelog": "- 通緝令自動開打：接近完成時人在坐騎上會先下坐騎（飛行中先降落再下來），下來後才請 WrathCombo 開打或開自動攻擊；等了幾秒仍下不來就停下並告訴你「沒能下坐騎」\n- 通緝令自動開打：WrathCombo 自動循環開著時，先選取通緝目標並請 WrathCombo 開打（WrathCombo 要同步更新並勾「DailyDuty 通緝目標繞過『僅於戰鬥中』限制」，預設已勾），幾秒內沒進入戰鬥才改開自動攻擊；沒開成時的說明會寫明是 WrathCombo 沒接手還是沒有 WrathCombo",
+    "LastUpdate": 1795530386
   },
   {
     "Author": "liza, qstxiv, & various contributors",
@@ -1359,7 +1359,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.26",
+    "AssemblyVersion": "7.30.0.28",
     "Description": "宇宙探索輔助工具：自動接取宇宙探索任務，並代為完成採集與製作流程，讓你輕鬆累積研究進度。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1377,10 +1377,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "宇宙探索的自動化好夥伴。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.26/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.26/ICE.zip",
-    "Changelog": "- 宇宙探索：任務中途收手改按「回報結果」交件時，也會判定金星／銀星／銅星，交件次數統計與記錄的任務分數不再記錯\n- 宇宙探索：修正法恩娜 9 個任務的內建分數（「研究法恩娜資源活用方法」等 8 個職業的同一級任務 78 改 50、任務 902 由 6 改 5），任務排序與每分鐘成果改用正確值",
-    "LastUpdate": 1795508667
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.28/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.28/ICE.zip",
+    "Changelog": "- 宇宙探索：開著「取得金星後自動停用」時，連續任務整串都拿到金星後，前面的段落也一起停用，不會再先去重接已經做完那串的前置",
+    "LastUpdate": 1795540144
   },
   {
     "Author": "Liza Carvelli",
@@ -1439,7 +1439,7 @@
     "Author": "Chalkos",
     "Name": "Marketbuddy",
     "InternalName": "Marketbuddy",
-    "AssemblyVersion": "7.30.0.16",
+    "AssemblyVersion": "7.30.0.18",
     "Description": "市場公告板上架與調價的操作輔助。點選「調整價格」時會一次開啟改價視窗、目前市場標價列表與成交紀錄；點一下列表中的商品，你的售價就會自動設為該價格減 1 Gil 並跳回商品列表，同時把價格複製到剪貼簿。若要把同一個價格套用到多個商品，按住 Ctrl 再點「調整價格」即可直接沿用剪貼簿裡的數值。按住 Shift 可暫時略過部分自動化。各項功能都能在設定視窗（/mbuddy）中個別開關。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/Marketbuddy",
@@ -1455,10 +1455,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/Marketbuddy.png",
     "Punchline": "少點幾下，多賺點 Gil！",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.16/Marketbuddy.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.16/Marketbuddy.zip",
-    "Changelog": "- 重掛、快速上架與批次上架要查的最近成交價改成照上架順序、每批最多 20 件分批查：一次排很多件時不會因為一個大請求逾時而整批拿不到近期成交價，最先上架的幾件也最先查到\n- 快速上架與批次上架不再每件白等 Universalis 25 秒：要上架的道具一排進去就先查最近成交價，單件最多等 8 秒；Universalis 剛逾時或失敗時接下來的道具直接照原本的方式定價，查成功一次就恢復；「拿不到最近成交價」的提示 5 分鐘內只講一次",
-    "LastUpdate": 1795511252
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.18/Marketbuddy.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/Marketbuddy-v7.30.0.18/Marketbuddy.zip",
+    "Changelog": "- 背包預先勾選：之後才進背包的可上架道具也會先勾起來（取消過的不勾回，按過「全部取消」就不再自動勾）；InventoryTools 有載入但還讀不到製作清單時先不勾，避免把製作材料勾去上架\n- 背包上架：這個角色的背包還沒勾任何道具時，先把能上架的道具勾起來（不自動上架、製作清單上、近期低於門檻的不勾），僱員選單旁新增「檢視／調整勾選」；只是先勾好，仍要按開始才上架",
+    "LastUpdate": 1795540422
   },
   {
     "Author": "Faye",
@@ -1500,7 +1500,7 @@
     "Author": "ffxiv-tc-port",
     "Name": "TC Toolbox",
     "InternalName": "TCToolbox",
-    "AssemblyVersion": "7.30.0.16",
+    "AssemblyVersion": "7.30.0.21",
     "Description": "台服自製 QoL 工具箱，內含上百個獨立模組，分成「背包・裝備」「戰鬥・小隊」「公會・生活」「介面・雜項」四類，可在設定視窗逐一開關。預設只開啟 3 個純顯示或只寫紀錄的模組，其餘預設關閉。涵蓋背包整理與搬移、公會合建交料、陸行鳥餵食、園圃作業、隊伍招募輔助、周邊玩家與敵人清單等。指令 /tctoolbox 開啟設定視窗。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/TCToolbox",
@@ -1516,10 +1516,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/TCToolbox.png",
     "Punchline": "台服 QoL 模組集：背包、戰鬥小隊、公會生活、介面雜項，每個模組獨立開關。",
     "AcceptsFeedback": false,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.16/TCToolbox.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.16/TCToolbox.zip",
-    "Changelog": "- 貼在遊戲原生視窗旁的按鈕與面板維持原本大小：免費商店上方的兌換按鈕列、招募說明可反白複製的小窗不跟字級放大，避免擋到原生視窗\n- 獨立視窗的最小尺寸與主視窗搜尋框也跟著字級放大：換了較大的預設字型時，視窗不會縮到把內容擠掉\n- 介面寬度跟著字級放大：在 Dalamud 設定換了較大的預設字型時，各模組的輸入框、滑桿、表格欄、按鈕、圖示與清單高度一起放大，不再被字撐爆",
-    "LastUpdate": 1795446175
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.21/TCToolbox.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/TCToolbox-v7.30.0.21/TCToolbox.zip",
+    "Changelog": "- 前線目標面板新增「疊在小地圖上」（預設關）：把各目標的進度環、狀態色與倒數直接畫在遊戲小地圖上，圈外的目標在圓邊畫箭頭；周邊遺跡群的 9 個據點也有了位置，面板的「俯視小圖」與「顯示待機中的冰」改為會記住",
+    "LastUpdate": 1795540447
   },
   {
     "Author": "daemitus, MidoriKami",
