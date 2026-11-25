@@ -205,7 +205,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.66",
+    "AssemblyVersion": "7.30.0.68",
     "Description": "提供 Boss 戰雷達、自動循環、冷卻計劃與 AI 功能，幫助您輕鬆應對各種 Boss 機制。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -222,10 +222,10 @@
     ],
     "Punchline": "不再因副本機制失誤",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.66/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.66/BossModReborn.zip",
-    "Changelog": "- 寶物庫：獎勵怪任何時候都優先於普通怪、曼德拉戰隊照擊殺順序；新增「寶物庫：目標鎖定獎勵怪」（預設關），開啟後遊戲目標會鎖在該打的那隻直到倒下",
-    "LastUpdate": 1795537838,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.68/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.68/BossModReborn.zip",
+    "Changelog": "- 紅玉火山獄之蓋 玄武：玄冥瀑散開的判定時間改成錄影實測的約 3.2 秒（原本猜 5 秒，AI 會以為還有時間）\n- 紅玉火山獄之蓋 鐮鼬：野鐮照大鐮風之間的連線預先畫出三段衝鋒路線；玉風自爆前 8 秒畫出範圍（自爆時間只量到一輪，近似）\n- 紅玉火山獄之蓋 大岳丸：噴火飛び之後王身邊每秒一跳的玄武熔岩、徒手標出的岩棍落點畫進危險區，AI 會離開王身邊並避開下一跳的落點",
+    "LastUpdate": 1795593857,
     "CategoryTags": [
       "Jobs"
     ]
