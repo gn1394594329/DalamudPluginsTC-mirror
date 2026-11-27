@@ -153,7 +153,7 @@
     "Author": "кайт машина (Puni.sh)",
     "Name": "AutoRetainer",
     "InternalName": "AutoRetainer",
-    "AssemblyVersion": "7.30.0.18",
+    "AssemblyVersion": "7.30.0.21",
     "Description": "自動處理僱員探險與公會工坊的遠航探索：到期就收回成果並重新派出。輸入 /autoretainer 開啟。\n\n- 僱員探險：在傳喚鈴前自動收取探險成果並重新委託，可順便存提 Gil、把指定物品賣掉或交給僱員保管\n- 潛水艇與飛空艇：返航後自動收回並重新出航，內建航線規劃；可自動補買桶裝青磷水（預設關）\n- 多角色模式：輪流登入各角色處理到期的僱員與遠航探索；「跑一輪就回來」處理完自動換回原本的角色\n- 籌備稀有品：前往大國防聯軍繳交，並照兌換清單花掉軍票（需搭配 Lifestream）\n- 角色列表顯示各角色的軍票、理符受理限額等額度，快滿時在列上看得見\n- 探險或遠航返航時可請塔塔露出聲提醒（需搭配 TataruPraise）",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/AutoRetainer",
@@ -175,10 +175,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/AutoRetainer.png",
     "Punchline": "自動收發僱員探險與公會潛水艇、飛空艇的遠航探索。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.18/AutoRetainer.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.18/AutoRetainer.zip",
-    "Changelog": "- 多角色模式：背包快滿但沒有可繳交的道具時，在紀錄寫一行原因",
-    "LastUpdate": 1795642939,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.21/AutoRetainer.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/AutoRetainer-v7.30.0.21/AutoRetainer.zip",
+    "Changelog": "- 多角色模式：不可交易、珍稀、裝備等級低於 80 的可繳交裝備改放進兵裝庫，不再存給僱員；兵裝庫該部位滿了或 80 等以上照常存（預設關）\n- 稀有品繳交循環：有裝備因為身上已有同一件珍稀品而取不出來時，繳交完會再跑一輪去拿，不會留在僱員身上",
+    "LastUpdate": 1795805853,
     "CategoryTags": [
       "Inventory"
     ]
@@ -253,7 +253,7 @@
     "Author": "The Combat Reborn Team",
     "Name": "Bossmod Reborn",
     "InternalName": "BossModReborn",
-    "AssemblyVersion": "7.30.0.85",
+    "AssemblyVersion": "7.30.0.87",
     "Description": "戰鬥機制輔助插件：在雷達上畫出場地、敵人與即將到來的危險區，並提示機制怎麼處理。\n- 雷達與機制提示：依首領模組畫出各種 AOE、站位與解法；沒有專屬模組的討伐殲滅戰、大型任務與迷宮挑戰，也會畫出場地與照讀條猜出的危險區。\n- AI 移動與閃避：依安全區自動走位、閃避與選目標。預設在插件載入時開啟，你可以在 AI 設定關閉，或按住暫停鍵（預設 Alt）暫時自己走位；不建議與陌生玩家同隊時使用。\n- 自動循環與減傷：內建循環預設與冷卻計劃器；也可以只用「預測減傷」在全體傷害與死刑之前先開減傷，和其他循環插件並行。\n- 深層迷宮與寶物庫：小地圖、自動走到傳送點與寶箱、迴避已知陷阱，寶物庫的獎勵怪優先打。\n- 給其他插件的介面：提供傷害預告、停手時機、打斷目標與位移落點安全等查詢，可搭配 WrathCombo、AutoDuty 等插件。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/BossmodReborn",
@@ -280,10 +280,10 @@
     ],
     "Punchline": "畫出副本機制的危險區與解法提示，並可由 AI 自動閃避",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.85/BossModReborn.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.85/BossModReborn.zip",
-    "Changelog": "- 水晶塔 希爾科斯塔：金剛不壞的守護者「星極拳」與才思敏捷的亞蒙「花腔」（沒有讀條的正面扇形）改為常駐危險區，非坦克的 AI 不再站在王正前方\n- 新增腐壞遺跡無限城市街古跡、水晶塔 希爾科斯塔的整座副本障礙物圖，魔科學研究所改用涵蓋整座副本的圖：沒有啟用中的首領模組時 AI 尋路會避開牆",
-    "LastUpdate": 1795715311,
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.87/BossModReborn.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/BossModReborn-v7.30.0.87/BossModReborn.zip",
+    "Changelog": "- 武裝聖域放浪神古神殿：腐氣持有者噴出範圍前約 3.6 秒標成散開、死亡宣告提示補滿血；折角騎士 寇黑加的正面順劈改為常駐危險區、長槍優先打；莫拉加加的靈魂熄滅不再誤當凝視而背對首領\n- 新增武裝聖域放浪神古神殿的整座副本障礙物圖，山中戰線澤梅爾要塞與水晶塔 暗之世界的圖補上錄影裡站過卻被當成牆的幾格：AI 尋路會避開牆、不再卡在站得到的地方",
+    "LastUpdate": 1795798242,
     "CategoryTags": [
       "Jobs"
     ]
@@ -1617,7 +1617,7 @@
     "Author": "Ice",
     "Name": "Ice's Cosmic Exploration",
     "InternalName": "ICE",
-    "AssemblyVersion": "7.30.0.37",
+    "AssemblyVersion": "7.30.0.38",
     "Description": "宇宙探索自動化：按下開始後自動接取、執行並回報宇宙探索任務，依你勾選的任務與優先順序進行，隨時可停止。\n- 採集、釣魚、製作任務代為完成：採集需搭配 vnavmesh，釣魚需搭配 AutoHook，製作需搭配 Artisan\n- 任務挑選規則：階級順序、沒金星的優先、取得金星後自動停用；任務表可依金星率、平均耗時等效益欄排序\n- 「全職業研究進度」視窗：一頁看各職業的宇宙工具階段與研究項目進度，可直接換到該職業\n- 自動購買宇宙信用點數商店的道具、轉宇宙好運道；達到指定等級或點數時自動停止\n- 機甲行動只顯示資訊（技能範圍、冷卻、事件時間），不施放技能、不走位、不報名\n- 指令 /ice 開啟主視窗，/ice start、/ice stop 開始與停止",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/ffxiv-tc-port/ICE",
@@ -1640,10 +1640,10 @@
     "IconUrl": "https://raw.githubusercontent.com/ffxiv-tc-port/DalamudPluginsTC/main/icons/ICE.png",
     "Punchline": "自動接取並完成宇宙探索任務，累積研究進度。",
     "AcceptsFeedback": true,
-    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.37/ICE.zip",
-    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.37/ICE.zip",
-    "Changelog": "- 宇宙探索：「【高難】製作改良版月凝膠」釣到小跳肺魚後不再放專一垂釣（這種魚吃不到專一垂釣），省下的 GP 留給拍擊水面與撒餌\n- 宇宙探索：「【高難+】製作鰻魚預製菜」改照攻略先提一條強咬雜魚拍擊水面，再專等虛空鰻；撒餌改成 GP 400 以上才放，留 GP 給拍擊水面\n- 宇宙探索：「【高難+】如水晶一般的寶石」釣明月碧璽原石時 GP 不夠放三重提鉤也照樣提起來，不再放掉；華麗提鉤也不會再用在雜魚身上\n- 宇宙探索：「採集精密加工所需的水產品」的內建釣魚設定改成專刷黑冠尾鬥魚的魚影：謙遜之餌放滿三層還沒出現魚影就歇竿重拋，不再等雜魚咬鉤",
-    "LastUpdate": 1795705683
+    "DownloadLinkInstall": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.38/ICE.zip",
+    "DownloadLinkUpdate": "https://github.com/ffxiv-tc-port/DalamudPluginsTC/releases/download/ICE-v7.30.0.38/ICE.zip",
+    "Changelog": "- 宇宙探索：「【高難+】採集魔泉環境的樣本」分數還沒到銀星時，月蝠鱝的 !!! 也會提起來；到銀星以後改成只等月底走鯨拚金星",
+    "LastUpdate": 1795784891
   },
   {
     "Author": "Liza Carvelli",
